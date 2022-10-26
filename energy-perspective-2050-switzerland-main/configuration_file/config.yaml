@@ -65,7 +65,7 @@ production pathways:
     production volume:
       variable: Production|Electricity|Renewable|Photovoltaic2
     ecoinvent alias:
-      name: electricity production, photovoltaic2
+      name: electricity production, new PV
       reference product: electricity, low voltage
       exists in original database: False
       
@@ -181,7 +181,7 @@ production pathways:
     production volume:
       variable: Production|Electricity|Neighbor countries|Renewable|Photovoltaic2
     ecoinvent alias:
-      name: electricity production, photovoltaic2
+      name: electricity production, new PV
       reference product: electricity, low voltage
       exists in original database: False
       
