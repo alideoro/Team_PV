@@ -47,7 +47,7 @@ image;SSP2-Base;Business As Usual;CH;Production|Electricity|Neighbor countries|R
 image;SSP2-Base;Business As Usual;CH;Production|Electricity|Neighbor countries|Renewable|Wind turbines|Onshore;PJ/year;586.563;691.686;896.487;967.07;1073.637;1285.186;1457.717;1457.717;1457.717;1457.717;1457.717;1457.717
 image;SSP2-Base;Business As Usual;CH;Production|Electricity|Neighbor countries|Renewable|Wind turbines|Offshore;PJ/year;127.027;210.495;297.586;388.655;395.81;593.401;692.669;692.669;692.669;692.669;692.669;692.669
 image;SSP2-Base;Business As Usual;CH;Production|Electricity|Neighbor countries|Renewable|Biomass;PJ/year;219.931;232.164;242.87;226.044;202.997;179.276;159.577;159.577;159.577;159.577;159.577;159.577
-image;SSP2-Base;Business As Usual;CH;Production|Electricity|Renewable|Photovoltaic|new;PJ/year;308.724;414.291;592.01;728.462;937.187;1137.803;1290.061;1290.061;1290.061;1290.061;1290.061;1290.061
+image;SSP2-Base;Business As Usual;CH;Production|Electricity|Renewable|Photovoltaic|new;PJ/year;9.073;14.358;24.446;26.932;29.674;34.129;40.043;40.043;40.043;40.043;40.043;40.043
 image;SSP2-Base;Business As Usual;CH;Production|Electricity|Neighbor countries|Import;PJ/year;-175.262;-84.283;-58.32;111.377;229.468;187.812;143.633;143.633;143.633;143.633;143.633;143.633
 image;SSP2-RCP26;ZERO Basis;CH;Production|Electricity|Run-of-river hydro;PJ/year;64.469;65.24;65.99;66.475;66.52;66.399;66.774;66.774;66.774;66.774;66.774;66.774
 image;SSP2-RCP26;ZERO Basis;CH;Production|Electricity|Reservoir;PJ/year;76.154;80.284;84.002;84.46;91.094;92.855;94.097;94.097;94.097;94.097;94.097;94.097
