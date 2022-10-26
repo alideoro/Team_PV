@@ -1,5 +1,4 @@
-cutoff;9;;;;;;;;;;;
-Database;h2_pem;;;;;;;;;;;
+database;h2_pem;;;;;;;;;;;
 ;;;;;;;;;;;;
 ;;;;;;;;;;;;
 Activity;hydrogen production, electrolysis, 25 bar, domestic, EP2050;;;;;;;;;;;
