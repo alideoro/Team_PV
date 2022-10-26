@@ -68,7 +68,7 @@ production pathways:
       name: electricity production, photovoltaic2
       reference product: electricity, low voltage
       exists in original database: False
-      new dataset: True
+      
       
   wind:
     production volume:
@@ -184,7 +184,7 @@ production pathways:
       name: electricity production, photovoltaic2
       reference product: electricity, low voltage
       exists in original database: False
-      new dataset: True
+      
       
 
   neighbors_wind_on:
