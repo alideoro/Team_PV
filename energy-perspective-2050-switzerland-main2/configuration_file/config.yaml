@@ -67,7 +67,9 @@ production pathways:
     ecoinvent alias:
       name: electricity production, photovoltaic new
       reference product: electricity, low voltage
-      exists in original database: True
+      exists in original database: False
+      new dataset: True
+      
 
   wind:
     production volume:
