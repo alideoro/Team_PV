@@ -1,4 +1,4 @@
-# energy-perspective-2050-switzerland ![GitHub release (latest by date)](https://img.shields.io/github/v/release/premise-community-scenarios/energy-perspective-2050-switzerland) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6653948.svg)](https://doi.org/10.5281/zenodo.6653948)
+# energy-perspective-2050-switzerland-PV_new ![GitHub release (latest by date)](https://img.shields.io/github/v/release/premise-community-scenarios/energy-perspective-2050-switzerland) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6653948.svg)](https://doi.org/10.5281/zenodo.6653948)
 
 
 Description!
@@ -8,9 +8,7 @@ This is a repository containing a scenario that implements the projections of th
 Energy Perspective 2050+ report for:
 
 * electricity, 
-* hydrogen, 
-* gas, 
-* and liquid fuels. 
+* add new PV technology
 
 It is meant to be used in `premise` in addition to a global IAM scenario, to provide 
 refined projections at the country level.
@@ -93,31 +91,6 @@ neighboring countries (FR + DE + IT + AT), for which a market is also created
 That market itself relies on imports from the rest of Europe, which is
 provided by the regional IAM market for European electricity (blue boundaries in map above).
 
-Liquid fuels
-************
-
-* `market for petrol, EP2050` (CH)
-* `market for diesel, EP2050` (CH)
-
-This includes the production of biofuel and synthetic fuel.
-The latter is produced in the neighboring countries, using
-the corresponding markets for hydrogen and electricity.
-
-
-Gaseous fuels
-*************
-
-* `market for hydrogen, gaseous, EP2050` (CH)
-* `market for compressed gas, high pressure, EP2050` (CH)
-* `market for compressed gas, low pressure, EP2050` (CH)
-
-For hydrogen, this includes the domestic and foreign production, via electrolysis.
-The latter is produced in the neighboring countries, using
-the corresponding markets for electricity.
-
-For compressed gas, this includes the provision of natural gas, biomethane
-and synthetic gas (from neighboring countries), using
-the corresponding markets for electricity.
 
 How are technologies mapped?
 ---------------------------
@@ -144,35 +117,6 @@ Electricity
 | Renewable, Geothermal              | electricity production, deep geothermal                         | Dataset provided by premise, based on the geothermal heat dataset of ecoinvent.                                           |
 | Renewable, Biomass                 | heat and power co-generation, wood chips, 6667 kW               |
 | Renewable, Biogas                  | heat and power co-generation, biogas, gas engine                |
-
-Liquid fuels
-************
-
-
-| Technologies in EP2050+            | LCI datasets used                                               | Remarks                                                                                                             |
-|------------------------------------|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Diesel                             | market for diesel, low-sulfur                                   | 
-| Biodiesel                          | Biodiesel, from rapeseed oil, at fuelling station         | Provided by premise. |
-| Synthetic diesel                   | diesel production, synthetic, from Fischer Tropsch process, hydrogen from electrolysis, energy allocation, at fuelling station, EP2050          | Provided by premise. |
-| Petrol                             | market for petrol, low-sulfur                                   |
-| Bioethanol                         | ethanol production from sugar beet                |
-| Synthetic petrol                   | gasoline production, synthetic, from methanol, hydrogen from electrolysis, CO2 from DAC, energy allocation, at fuelling station, EP2050 | Provided by premise. |                                                                                                |
-
-
-
-Gaseous fuels
-*************
-
-
-| Technologies in EP2050+ | LCI datasets used                                                                                                                      | Remarks          |
-|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|------------------|
-| Hydrogen, domestic      | hydrogen production, electrolysis, 25 bar, domestic, EP2050                                                                            | Provided by premise. |
-| Hydrogen, imported      | hydrogen production, electrolysis, 25 bar, imported, EP2050                                                                            | Provided by premise. |
-| Compressed natural gas  | natural gas, high pressure, at consumer | From 10.13140/RG.2.2.29142.78409.           |
-| Liquefied natural gas   | market for natural gas, liquefied                                                                                                          |
-| Biomethane              | market for biomethane, high pressure                                                                                                          |
-| Synthetic gas           | Methane, synthetic, gaseous, 5 bar, from electrochemical methanation, at fuelling station, EP2050 | Provided by premise. |
-
 
 
 Flow diagram
