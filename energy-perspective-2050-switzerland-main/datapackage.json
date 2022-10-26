@@ -26,7 +26,7 @@
                 "pathway": "SSP2-Base"
             }
         ],
-		"KN65": [
+	"KN65": [
             {
                 "model": "image",
                 "pathway": "SSP2-RCP19"
