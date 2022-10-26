@@ -1,8 +1,8 @@
 {
     "profile": "data-package",
-    "name": "energy-perspective-2050-switzerland",
+    "name": "energy-perspective-2050-switzerland-newPV",
     "title": "Energy Perspective 2050 + scenario implementation",
-    "description": "Implementation of BAU and ZERO Basis scenarios from Energy Perspective 2050 +",
+    "description": "Implementation of KN65, BAU and ZERO Basis scenarios from Energy Perspective 2050 +",
     "version": "0.0.4",
     "contributors":[{
     "title": "Romain Sacchi",
@@ -24,6 +24,16 @@
             {
                 "model": "remind",
                 "pathway": "SSP2-Base"
+            }
+        ],
+		"KN65": [
+            {
+                "model": "image",
+                "pathway": "SSP2-RCP19"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP2-RCP19"
             }
         ],
         "ZERO Basis": [
