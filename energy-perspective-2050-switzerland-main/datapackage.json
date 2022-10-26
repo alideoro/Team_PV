@@ -20,19 +20,11 @@
             {
                 "model": "image",
                 "pathway": "SSP2-Base"
-            },
-            {
-                "model": "remind",
-                "pathway": "SSP2-Base"
             }
         ],
 	"KN65": [
             {
                 "model": "image",
-                "pathway": "SSP2-RCP19"
-            },
-            {
-                "model": "remind",
                 "pathway": "SSP2-RCP19"
             }
         ],
