@@ -1,4 +1,3 @@
-Column1;Column2;Column3;Column4;Column5;Column6;Column7;Column8;Column9;Column10;Column11;Column12;Column13;Column14;Column15;Column16;Column17;Column18
 model;pathway;scenario;region;variables;unit;2020;2025;2030;2035;2040;2045;2050;2060;2070;2080;2090;2100
 image;SSP2-Base;Business As Usual;CH;Production|Electricity|Run-of-river hydro;PJ/year;64.002;63.994;63.928;63.119;61.774;59.235;58.097;58.097;58.097;58.097;58.097;58.097
 image;SSP2-Base;Business As Usual;CH;Production|Electricity|Reservoir;PJ/year;76.367;79.679;81.45;79.47;79.556;81.238;82.102;82.102;82.102;82.102;82.102;82.102
