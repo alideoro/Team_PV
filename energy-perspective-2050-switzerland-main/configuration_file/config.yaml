@@ -60,7 +60,16 @@ production pathways:
       name: electricity production, photovoltaic
       reference product: electricity, low voltage
       exists in original database: True
-
+  
+  pv2:
+    production volume:
+      variable: Production|Electricity|Renewable|Photovoltaic2
+    ecoinvent alias:
+      name: electricity production, photovoltaic2
+      reference product: electricity, low voltage
+      exists in original database: False
+      new dataset: True
+      
   wind:
     production volume:
       variable: Production|Electricity|Renewable|Wind turbines|Onshore
@@ -167,6 +176,16 @@ production pathways:
       name: electricity production, photovoltaic
       reference product: electricity, low voltage
       exists in original database: True
+      
+  neighbors_pv2:
+    production volume:
+      variable: Production|Electricity|Neighbor countries|Renewable|Photovoltaic2
+    ecoinvent alias:
+      name: electricity production, photovoltaic2
+      reference product: electricity, low voltage
+      exists in original database: False
+      new dataset: True
+      
 
   neighbors_wind_on:
     production volume:
@@ -547,7 +566,7 @@ markets:
     except regions:
       - World
 
-  - name: market for electricity, from neighboring countries, high voltage, EP2050
+  - name: market for electricity, from neighboring countries, high voltage, EP2050_PV2
     reference product: electricity, high voltage
     unit: kilowatt hour
     includes:
@@ -557,6 +576,7 @@ markets:
       - neighbors_conventional_ng
       - conventional_waste
       - neighbors_pv
+      - neighbors_pv2
       - neighbors_wind_on
       - neighbors_wind_off
       - neighbors_biomass
@@ -631,7 +651,7 @@ markets:
         location: CH
 
 
-  - name: market for electricity, high voltage, EP2050
+  - name: market for electricity, high voltage, EP2050_PV2
     reference product: electricity, high voltage
     unit: kilowatt hour
     includes:
@@ -642,6 +662,7 @@ markets:
       - conventional_waste
       - conventional_other
       - pv
+      - pv2
       - wind
       - geothermal
       - biomass
