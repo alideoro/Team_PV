@@ -358,9 +358,7 @@ water_panel_cleaning,20,,L/m2a; p.149 in (Jungbluth et al. 2012),TandemPV,,,,,,
 ,,,,,,,,,,
 Activity,MG_Si_APAC,,,,,,,,,
 code,4b0c810d37434db5aad03ae74d09eb69_copy4,,,,,,,,,
-comment,"Dataset is based on Table 6 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 6 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,APAC,,,,,,,,,
 reference product,"MG-Silicon, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -412,9 +410,7 @@ silicone factory construction,1E-11,ei 3.8 cutoff,RER,unit,,technosphere,"silico
 ,,,,,,,,,,
 Activity,MG_Si_CN,,,,,,,,,
 code,4b0c810d37434db5aad03ae74d09eb69_copy3,,,,,,,,,
-comment,"Dataset is based on Table 6 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 6 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,CN,,,,,,,,,
 reference product,"MG-Silicon, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -466,9 +462,7 @@ silicone factory construction,1E-11,ei 3.8 cutoff,RER,unit,,technosphere,"silico
 ,,,,,,,,,,
 Activity,MG_Si_NO,,,,,,,,,
 code,4b0c810d37434db5aad03ae74d09eb69_copy1,,,,,,,,,
-comment,"Dataset is based on Table 6 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 6 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,NO,,,,,,,,,
 reference product,"MG-Silicon, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -520,9 +514,7 @@ silicone factory construction,1E-11,ei 3.8 cutoff,RER,unit,,technosphere,"silico
 ,,,,,,,,,,
 Activity,MG_Si_US,,,,,,,,,
 code,4b0c810d37434db5aad03ae74d09eb69_copy2,,,,,,,,,
-comment,"Dataset is based on Table 6 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 6 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,US,,,,,,,,,
 reference product,"MG-Silicon, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -574,9 +566,7 @@ silicone factory construction,1E-11,ei 3.8 cutoff,RER,unit,,technosphere,"silico
 ,,,,,,,,,,
 Activity,SG_Si_APAC,,,,,,,,,
 code,642e79b240f44f8db29bd7fa164f0c82_copy1,,,,,,,,,
-comment,"Dataset is based on Table 7 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 7 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,APAC,,,,,,,,,
 reference product,"SG-Silicon, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -609,9 +599,7 @@ silicone factory construction,1E-11,ei 3.8 cutoff,RER,unit,,technosphere,"silico
 ,,,,,,,,,,
 Activity,SG_Si_CN,,,,,,,,,
 code,9d63d169bcea411589b94d93737213a4_copy1,,,,,,,,,
-comment,"Dataset is based on Table 7 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 7 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,CN,,,,,,,,,
 reference product,"SG-Silicon, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -644,11 +632,7 @@ silicone factory construction,1E-11,ei 3.8 cutoff,RER,unit,,technosphere,"silico
 ,,,,,,,,,,
 Activity,SG_Si_RER,,,,,,,,,
 code,bd450b5568ae4cee9c3b3e55332c263e_copy1,,,,,,,,,
-comment,"Dataset is based on Table 7 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-Swedish hydroelectricity from run-of-river was selected to represent the input 'electricity, hydropower, at run-of-river power plant, RER' since it has the largest production volume of electricity from run-of-river in the ENTSO-E region. However, all European datasets for electricity production from run-of-river in ecoinvent have equivalent inputs and outputs and therefore result in the same impacts per kWh. The choice for the Swedish dataset therefore does not impact the environmental impacts for the reference flow.
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 7 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. Swedish hydroelectricity from run-of-river was selected to represent the input 'electricity, hydropower, at run-of-river power plant, RER' since it has the largest production volume of electricity from run-of-river in the ENTSO-E region. However, all European datasets for electricity production from run-of-river in ecoinvent have equivalent inputs and outputs and therefore result in the same impacts per kWh. The choice for the Swedish dataset therefore does not impact the environmental impacts for the reference flow.- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,RER,,,,,,,,,
 reference product,"SG-Silicon, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -684,11 +668,7 @@ silicone factory construction,1E-11,ei 3.8 cutoff,RER,unit,,technosphere,"silico
 ,,,,,,,,,,
 Activity,SG_Si_US,,,,,,,,,
 code,cb7a4b99464e451cb73975989949b8a1_copy1,,,,,,,,,
-comment,"Dataset is based on Table 7 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-Swedish hydroelectricity from run-of-river was selected to represent the input 'electricity, hydropower, at run-of-river power plant, RER' since it has the largest production volume of electricity from run-of-river in the ENTSO-E region. However, all European datasets for electricity production from run-of-river in ecoinvent have equivalent inputs and outputs and therefore result in the same impacts per kWh. The choice for the Swedish dataset therefore does not impact the environmental impacts for the reference flow.
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 7 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. Swedish hydroelectricity from run-of-river was selected to represent the input 'electricity, hydropower, at run-of-river power plant, RER' since it has the largest production volume of electricity from run-of-river in the ENTSO-E region. However, all European datasets for electricity production from run-of-river in ecoinvent have equivalent inputs and outputs and therefore result in the same impacts per kWh. The choice for the Swedish dataset therefore does not impact the environmental impacts for the reference flow.- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,US,,,,,,,,,
 reference product,"SG-Silicon, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -722,9 +702,7 @@ silicone factory construction,1E-11,ei 3.8 cutoff,RER,unit,,technosphere,"silico
 ,,,,,,,,,,
 Activity,Si_prod_mix_APAC,,,,,,,,,
 code,0450d1ff1efe47519018e49d14e4192d_copy1,,,,,,,,,
-comment,"Dataset is based on Table 8 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 8 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,APAC,,,,,,,,,
 reference product,"Silicon, production mix, photovoltaics, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -738,9 +716,7 @@ SG_Si_APAC,1,TandemPV,APAC,kilogram,technosphere,"silicon, solar grade, modified
 ,,,,,,,,,,
 Activity,Si_prod_mix_CN,,,,,,,,,
 code,853d7ba790054ea0bc2f27b190aa00a1_copy1,,,,,,,,,
-comment,"Dataset is based on Table 8 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 8 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,CN,,,,,,,,,
 reference product,"Silicon, production mix, photovoltaics, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -758,9 +734,7 @@ SG_Si_US,0.0928,TandemPV,US,kilogram,technosphere,"silicon, solar grade, modifie
 ,,,,,,,,,,
 Activity,Si_prod_mix_GLO,,,,,,,,,
 code,460678f57245404cb52574c03d3f6982_copy1,,,,,,,,,
-comment,"Dataset is based on Table 8 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 8 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,GLO,,,,,,,,,
 reference product,"Silicon, production mix, photovoltaics, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -774,10 +748,7 @@ SG_Si_RER,1,TandemPV,RER,kilogram,technosphere,"silicon, solar grade, modified S
 ,,,,,,,,,,
 Activity,monofacial_tandem_electricity,,,,,,,,,
 code,8b420821ccbd4c59ac7ccbe98cb7ae9e_copy1,,,,,,,,,
-comment,"This dataset is modelled after Table 14.17 in (Jungbluth et al. 2012). Quantities of photovoltaic installation and water are parameterized to account for improvements in power density of the monofacial PSC-scSi tandem panel over time using scenarios. Furthermore, emissions of lead to the water and air compartment are included, which result from breakage (Sinha et al. 2019) in the field or from fire (Laukamp et al. 2013, Sinha et al. 2018). Lead is present in the metallization pastes used in producing the scSi cells (Jungbluth et al. 2012) and in the absorber layer of the PSC.
-
-- Jungbluth et al. 2012 Life Cycle Inventories of Photovoltaics - Version: 2012, https://esu-services.ch/fileadmin/download/publicLCI/jungbluth-2012-LCI-Photovoltaics.pdf [accessed  31-08-2022]
-- Laukamp, H., Bopp, G., Grab, R., Wittwer, C., Häberlin, H., van Heeckeren, B., Phillip, S., Reil, F., Schmidt, H., Sepanski, A., Thiem, H., & Vaassen, W. (2013). PV Fire Hazard - Analysis and Assessment of Fire Incidents. 28th European Photovoltaic Solar Energy Conference and Exhibition (EU PVSEC), Paris, France.
+comment,"This dataset is modelled after Table 14.17 in (Jungbluth et al. 2012). Quantities of photovoltaic installation and water are parameterized to account for improvements in power density of the monofacial PSC-scSi tandem panel over time using scenarios. Furthermore, emissions of lead to the water and air compartment are included, which result from breakage (Sinha et al. 2019) in the field or from fire (Laukamp et al. 2013, Sinha et al. 2018). Lead is present in the metallization pastes used in producing the scSi cells (Jungbluth et al. 2012) and in the absorber layer of the PSC.- Jungbluth et al. 2012 Life Cycle Inventories of Photovoltaics - Version: 2012, https://esu-services.ch/fileadmin/download/publicLCI/jungbluth-2012-LCI-Photovoltaics.pdf [accessed  31-08-2022]- Laukamp, H., Bopp, G., Grab, R., Wittwer, C., Häberlin, H., van Heeckeren, B., Phillip, S., Reil, F., Schmidt, H., Sepanski, A., Thiem, H., & Vaassen, W. (2013). PV Fire Hazard - Analysis and Assessment of Fire Incidents. 28th European Photovoltaic Solar Energy Conference and Exhibition (EU PVSEC), Paris, France.
 - Sinha, P., Heath, G., Wade, A., & Komoto, K. (2018). Human Health Risk Assessment Methods for PV, Part 1: Fire risks [International Energy Agency (IEA) PVPS Task 12, Report T12-14:2018](ISBN 978-3-906042-78-7). https://iea-pvps.org/wp-content/uploads/2020/01/HHRA_Methods_for_PV_Part1_by_Task_12.pdf
 - Sinha, P., Heath, G., Wade, A., & Komoto, K. (2019). Human Health Risk Assessment Methods for PV, Part 2: Breakage Risks [International Energy Agency (IEA) PVPS Task 12, Report T12-15:2019](ISBN 978-3-906042-87-9). https://iea-pvps.org/wp-content/uploads/2020/01/Task_12-Human_Health_Risk_Assessment_Methods_for_PV_part_2.pdf",,,,,,,,,
 location,RER,,,,,,,,,
@@ -799,11 +770,7 @@ monofacial_tandem_installation,1.30757E-05,TandemPV,RER,unit,,technosphere,insta
 ,,,,,,,,,,
 Activity,monofacial_tandem_installation,,,,,,,,,
 code,48304cf110854de8b4124a9b2533d0d6_copy1,,,,,,,,,
-comment,"Dataset is modelled after Table 12.6 in (Jungbluth et al. 2012). Transport and emission of heat were excluded. The quantity of Silicon PV panel and mounting system were adjusted based on the present day power dentisty of Silicon PV. Both flows were parameterized to allow for analysis of future scenarios with increased power densities. 
-
-Avoided burdens from recycling of the Silicon PV panel is included in the dataset for its production (see activity ""scSi_panel_RER"" in database ""Panels""). Avoided burdens from end-of-life (EoL) waste treatment of the Balance-of-System (BoS) were included here, because these were not included in the orginal datasets from ecoinvent. Recycleable materials are sent for treatment, with the recycling chain starting at the cut-off point for the recyclable material (i.e. the ""Recycled content, cut-off"" dataset of the respective material) and includes all processing steps up to the point of producing a material that can provide a like-for-like replacement with a virgin material in the technosphere. For more information, see the description of the datasets in the ""EoL"" database. From recycling of corrugated board box, two recycled products can be obtained: linerboard and fluting medium. For simplicity, a 50:50 ratio between both products is assumed here. This can be considered reasonable, since corrugated board box contains liner board and fluting medium at a ratio ranging from 60:40 to 40:60 and because of its overall minor contribution to the impacts from a demand for 1 unit of the product. Avoided burden from incineration of waste materials are included.
-
-- Jungbluth et al. 2012 Life Cycle Inventories of Photovoltaics - Version: 2012, https://esu-services.ch/fileadmin/download/publicLCI/jungbluth-2012-LCI-Photovoltaics.pdf [accessed  31-08-2022]",,,,,,,,,
+comment,"Dataset is modelled after Table 12.6 in (Jungbluth et al. 2012). Transport and emission of heat were excluded. The quantity of Silicon PV panel and mounting system were adjusted based on the present day power dentisty of Silicon PV. Both flows were parameterized to allow for analysis of future scenarios with increased power densities. Avoided burdens from recycling of the Silicon PV panel is included in the dataset for its production (see activity ""scSi_panel_RER"" in database ""Panels""). Avoided burdens from end-of-life (EoL) waste treatment of the Balance-of-System (BoS) were included here, because these were not included in the orginal datasets from ecoinvent. Recycleable materials are sent for treatment, with the recycling chain starting at the cut-off point for the recyclable material (i.e. the ""Recycled content, cut-off"" dataset of the respective material) and includes all processing steps up to the point of producing a material that can provide a like-for-like replacement with a virgin material in the technosphere. For more information, see the description of the datasets in the ""EoL"" database. From recycling of corrugated board box, two recycled products can be obtained: linerboard and fluting medium. For simplicity, a 50:50 ratio between both products is assumed here. This can be considered reasonable, since corrugated board box contains liner board and fluting medium at a ratio ranging from 60:40 to 40:60 and because of its overall minor contribution to the impacts from a demand for 1 unit of the product. Avoided burden from incineration of waste materials are included.- Jungbluth et al. 2012 Life Cycle Inventories of Photovoltaics - Version: 2012, https://esu-services.ch/fileadmin/download/publicLCI/jungbluth-2012-LCI-Photovoltaics.pdf [accessed  31-08-2022]",,,,,,,,,
 location,RER,,,,,,,,,
 reference product,"market for, photovoltaic slanted-roof installation, 3kWp, monofacial PSC-scSi panel, mounted, on roof",,,,,,,,,
 type,process,,,,,,,,,
@@ -823,13 +790,7 @@ monofacial_tandem_panel_DE,370.8,TandemPV,DE,square meter,technosphere,MFT_area_
 ,,,,,,,,,,
 Activity,monofacial_tandem_panel_DE,,,,,,,,,
 code,f06fa1d3c529457485a26db952483abc_copy1,,,,,,,,,
-comment,"Dataset is based on Table 28 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-Avoided burdens of electricity and heat from incineration of wastes are included in this dataset, using yields in MJ/kg waste incinerated, which were obtained from the ecoinvent dataset for treatment of the respective waste streams through incineration in Switzerland. Waste to be incinerated are: mixed plastic waste and spent solvent mixture.
-
-First generation recycling of the monofacial PSC-scSi tandem panel is modelled as recycling of scSi panel, without additional flows from the PSC-layer in the tandem. This result in an underestimation of emissions and avoided burdens from first generation recycling. Second geenration recycling does take into account the processing of the PSC-layer. Switching between recycling options is done in scenario analysis using a scenario file in which the flow to either first or second generation recycling is set to 0. When assesing this dataset in isolation, i.e. without scenario file, one should manually set the value for the flow of either first or second generation recycling to 0. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 28 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. Avoided burdens of electricity and heat from incineration of wastes are included in this dataset, using yields in MJ/kg waste incinerated, which were obtained from the ecoinvent dataset for treatment of the respective waste streams through incineration in Switzerland. Waste to be incinerated are: mixed plastic waste and spent solvent mixture.First generation recycling of the monofacial PSC-scSi tandem panel is modelled as recycling of scSi panel, without additional flows from the PSC-layer in the tandem. This result in an underestimation of emissions and avoided burdens from first generation recycling. Second geenration recycling does take into account the processing of the PSC-layer. Switching between recycling options is done in scenario analysis using a scenario file in which the flow to either first or second generation recycling is set to 0. When assesing this dataset in isolation, i.e. without scenario file, one should manually set the value for the flow of either first or second generation recycling to 0. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,DE,,,,,,,,,
 reference product,"Photovoltaic panel, perovskite-Si-tandem, at plant, incl. 1st generation recycling at EoL",,,,,,,,,
 type,process,,,,,,,,,
@@ -882,9 +843,7 @@ scSi_cell_CN,0.935,TandemPV,CN,square meter,,technosphere,,"photovoltaic cell, s
 ,,,,,,,,,,
 Activity,scSi_APAC,,,,,,,,,
 code,461f9297e28a4a41aefbf459b8e12b12_copy2,,,,,,,,,
-comment,"Dataset is based on Table 9 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 9 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,APAC,,,,,,,,,
 reference product,"CZ single crystalline silicon, photovoltaics, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -924,9 +883,7 @@ silicone factory construction,1E-11,ei 3.8 cutoff,RER,unit,,technosphere,,"silic
 ,,,,,,,,,,
 Activity,scSi_CN,,,,,,,,,
 code,461f9297e28a4a41aefbf459b8e12b12_copy3,,,,,,,,,
-comment,"Dataset is based on Table 9 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 9 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,CN,,,,,,,,,
 reference product,"CZ single crystalline silicon, photovoltaics, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -966,9 +923,7 @@ silicone factory construction,1E-11,ei 3.8 cutoff,RER,unit,,technosphere,,"silic
 ,,,,,,,,,,
 Activity,scSi_RER,,,,,,,,,
 code,461f9297e28a4a41aefbf459b8e12b12_copy1,,,,,,,,,
-comment,"Dataset is based on Table 9 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 9 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,RER,,,,,,,,,
 reference product,"CZ single crystalline silicon, photovoltaics, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -1008,11 +963,7 @@ silicone factory construction,1E-11,ei 3.8 cutoff,RER,unit,,technosphere,,"silic
 ,,,,,,,,,,
 Activity,scSi_cell_APAC,,,,,,,,,
 code,261c0e628e7b4ae3abb8dcb54039ac3d_copy2,,,,,,,,,
-comment,"Dataset is based on Table 17 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-Avoided burdens of electricity and heat from incineration of waste solvent are included in this dataset, using yields in MJ/kg solvent incinerated, which were obtained from the ecoinvent dataset for treatment of spent solvent mixture through hazardous waste incineration in Switzerland.
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 17 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. Avoided burdens of electricity and heat from incineration of waste solvent are included in this dataset, using yields in MJ/kg solvent incinerated, which were obtained from the ecoinvent dataset for treatment of spent solvent mixture through hazardous waste incineration in Switzerland.- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,APAC,,,,,,,,,
 reference product,"Silicon PV cell, single-Si, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -1068,11 +1019,7 @@ scSi_wafer_mix_APAC,1.03,TandemPV,APAC,square meter,,technosphere,,"single-Si wa
 ,,,,,,,,,,
 Activity,scSi_cell_CN,,,,,,,,,
 code,261c0e628e7b4ae3abb8dcb54039ac3d_copy1,,,,,,,,,
-comment,"Dataset is based on Table 16 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-Avoided burdens of electricity and heat from incineration of waste solvent are included in this dataset, using yields in MJ/kg solvent incinerated, which were obtained from the ecoinvent dataset for treatment of spent solvent mixture through hazardous waste incineration in Switzerland.
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 16 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. Avoided burdens of electricity and heat from incineration of waste solvent are included in this dataset, using yields in MJ/kg solvent incinerated, which were obtained from the ecoinvent dataset for treatment of spent solvent mixture through hazardous waste incineration in Switzerland.- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,CN,,,,,,,,,
 reference product,"Silicon PV cell, single-Si, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -1128,11 +1075,7 @@ scSi_wafer_CN,1.03,TandemPV,CN,square meter,,technosphere,,"single-Si wafer, pho
 ,,,,,,,,,,
 Activity,scSi_cell_RER,,,,,,,,,
 code,261c0e628e7b4ae3abb8dcb54039ac3d_copy3,,,,,,,,,
-comment,"Dataset is based on Table 17 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-Avoided burdens of electricity and heat from incineration of waste solvent are included in this dataset, using yields in MJ/kg solvent incinerated, which were obtained from the ecoinvent dataset for treatment of spent solvent mixture through hazardous waste incineration in Switzerland.
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 17 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. Avoided burdens of electricity and heat from incineration of waste solvent are included in this dataset, using yields in MJ/kg solvent incinerated, which were obtained from the ecoinvent dataset for treatment of spent solvent mixture through hazardous waste incineration in Switzerland.- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,RER,,,,,,,,,
 reference product,"Silicon PV cell, single-Si, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -1188,9 +1131,7 @@ scSi_wafer_mix_RER,1.03,TandemPV,RER,square meter,,technosphere,,"single-Si wafe
 ,,,,,,,,,,
 Activity,scSi_cell_mix_RER,,,,,,,,,
 code,0f3d1d70d35a4c30b455e1643d663007_copy1,,,,,,,,,
-comment,"Dataset is based on Table 18 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 18 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,RER,,,,,,,,,
 reference product,"Silicon PV cell, single-Si, at plant",,,,,,,,,
 type,process,,,,,,,,,
@@ -1206,9 +1147,7 @@ scSi_cell_RER,0.161,TandemPV,RER,square meter,technosphere,"photovoltaic cell, s
 ,,,,,,,,,,
 Activity,scSi_wafer_APAC,,,,,,,,,
 code,feb0bc35aa2346be8a8ee65bb0ff3f9b_copy2,,,,,,,,,
-comment,"Dataset is based on Table 12 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 12 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,APAC,,,,,,,,,
 reference product,"Single-Si wafer, photovoltaic, at plant ",,,,,,,,,
 type,process,,,,,,,,,
@@ -1248,9 +1187,7 @@ wafer factory construction,0.000004,ei 3.8 cutoff,DE,unit,,technosphere,,"wafer 
 ,,,,,,,,,,
 Activity,scSi_wafer_CN,,,,,,,,,
 code,feb0bc35aa2346be8a8ee65bb0ff3f9b_copy1,,,,,,,,,
-comment,"Dataset is based on Table 12 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 12 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,CN,,,,,,,,,
 reference product,"Single-Si wafer, photovoltaic, at plant ",,,,,,,,,
 type,process,,,,,,,,,
@@ -1290,9 +1227,7 @@ wafer factory construction,0.000004,ei 3.8 cutoff,DE,unit,,technosphere,,"wafer 
 ,,,,,,,,,,
 Activity,scSi_wafer_RER,,,,,,,,,
 code,feb0bc35aa2346be8a8ee65bb0ff3f9b_copy3,,,,,,,,,
-comment,"Dataset is based on Table 13 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 13 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,RER,,,,,,,,,
 reference product,"Single-Si wafer, photovoltaic, at plant ",,,,,,,,,
 type,process,,,,,,,,,
@@ -1332,9 +1267,7 @@ wafer factory construction,0.000004,ei 3.8 cutoff,DE,unit,,technosphere,,"wafer 
 ,,,,,,,,,,
 Activity,scSi_wafer_mix_APAC,,,,,,,,,
 code,27cbb0b20b0d40b2a1fda59af1664be5_copy1,,,,,,,,,
-comment,"Dataset is based on Table 14 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 14 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,APAC,,,,,,,,,
 reference product,"Single-Si wafer, photovoltaic",,,,,,,,,
 type,process,,,,,,,,,
@@ -1350,9 +1283,7 @@ scSi_wafer_CN,0.867,TandemPV,CN,square meter,technosphere,"single-Si wafer, phot
 ,,,,,,,,,,
 Activity,scSi_wafer_mix_RER,,,,,,,,,
 code,47bff2bcc1bd487682393172bc7091db_copy1,,,,,,,,,
-comment,"Dataset is based on Table 14 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
-
-- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
+comment,"Dataset is based on Table 14 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,,,
 location,RER,,,,,,,,,
 reference product,"Single-Si wafer, photovoltaic",,,,,,,,,
 type,process,,,,,,,,,
