@@ -14,7 +14,7 @@ image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Geothermal
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Biomass,PJ/year,0.99,0.986,0.95,0.9,0.824,0.846,0.76,0.76,0.76,0.76,0.76,0.76
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Biogas,PJ/year,1.086,1.086,1.077,1.05,1.035,1,0.994,0.994,0.994,0.994,0.994,0.994
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Medium to high,PJ/year,230.93,216.251,190.477,156.404,155.896,156.323,156.778,156.778,156.778,156.778,156.778,156.778
-image,SSP2-Base,Business As Usual,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Low to medium,PJ/year,230.93,216.251,190.477,156.404,155.896,156.323,156.778,156.778,156.778,156.778,156.778,156.778
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Import,PJ/year,-21.6,25.2,72,72,72,73.8,75.6,75.6,75.6,75.6,75.6,75.6
 image,SSP2-Base,Business As Usual,CH,Transmission losses|Electricity|Medium to high,PJ/year,1,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935
 image,SSP2-Base,Business As Usual,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973
