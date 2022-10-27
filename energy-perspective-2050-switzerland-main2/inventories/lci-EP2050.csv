@@ -311,7 +311,7 @@ production amount,1,,,,,,,,,,,,,,,,,
 reference product,hydrogen storage,,,,,,,,,,,,,,,,,
 type,process,,,,,,,,,,,,,,,,,
 unit,kilogram,,,,,,,,,,,,,,,,,
-comment,"LCI of storing 1 kg of hydrogen in a salt cavern. Includes only the electricity to inject the hydrogen in, and pump it out. Some additional parameters: Electricity demand compressor 0.240 kWh/kg H2 (Injection pressure for cavern between 85 and 170 bar. On average 44.25 bar difference of pressure). Electricity demand dryer 0.104 kWh/kg H2 (Hydrogen needs to be dried before reinjection into the pipeline). Lifetime 40 a (Noack et al., 2015; Stolzenburg et al., 2014). Inlet pressure cavern 85 bar. Inlet pressure dryer 50 bar. Electricity demand compressor 0.48 kWh/kg H2 (Injection pressure for pipeline from 50 bar (drier) to 100 bar pipeline).
+comment,"LCI of storing 1 kg of hydrogen in a salt cavern. Includes only the electricity to inject the hydrogen in, and pump it out. Some additional parameters: Electricity demand compressor 0.240 kWh/kg H2 (Injection pressure for cavern between 85 and 170 bar. On average 44.25 bar difference of pressure). Electricity demand dryer 0.104 kWh/kg H2 (Hydrogen needs to be dried before reinjection into the pipeline). Lifetime 40 a (Noack et al., 2015, Stolzenburg et al., 2014). Inlet pressure cavern 85 bar. Inlet pressure dryer 50 bar. Electricity demand compressor 0.48 kWh/kg H2 (Injection pressure for pipeline from 50 bar (drier) to 100 bar pipeline).
 ",,,,,,,,,,,,,,,,,
 source,C. Wulf et al. / Journal of Cleaner Production 199 (2018) 431-443,,,,,,,,,,,,,,,,,
 Exchanges,,,,,,,,,,,,,,,,,,
