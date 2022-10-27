@@ -1,0 +1,82 @@
+﻿Database,TandemPV,,,,,,,
+,,,,,,,,
+Activity,"electricity production, photovoltaic, PK/single-Si tandem",,,,,,,
+code,8b420821ccbd4c59ac7ccbe98cb7ae9e,,,,,,,
+comment,"This dataset is modelled after Table 14.17 in (Jungbluth et al. 2012). Quantities of photovoltaic installation and water are parameterized to account for improvements in power density of the monofacial PSC-scSi tandem panel over time using scenarios. Furthermore, emissions of lead to the water and air compartment are included, which result from breakage (Sinha et al. 2019) in the field or from fire (Laukamp et al. 2013, Sinha et al. 2018). Lead is present in the metallization pastes used in producing the scSi cells (Jungbluth et al. 2012) and in the absorber layer of the PSC. - Jungbluth et al. 2012 Life Cycle Inventories of Photovoltaics - Version: 2012, https://esu-services.ch/fileadmin/download/publicLCI/jungbluth-2012-LCI-Photovoltaics.pdf [accessed  31-08-2022] - Laukamp, H., Bopp, G., Grab, R., Wittwer, C., Häberlin, H., van Heeckeren, B., Phillip, S., Reil, F., Schmidt, H., Sepanski, A., Thiem, H., & Vaassen, W. (2013). PV Fire Hazard - Analysis and Assessment of Fire Incidents. 28th European Photovoltaic Solar Energy Conference and Exhibition (EU PVSEC), Paris, France. - Sinha, P., Heath, G., Wade, A., & Komoto, K. (2018). Human Health Risk Assessment Methods for PV, Part 1: Fire risks [International Energy Agency (IEA) PVPS Task 12, Report T12-14:2018](ISBN 978-3-906042-78-7). https://iea-pvps.org/wp-content/uploads/2020/01/HHRA_Methods_for_PV_Part1_by_Task_12.pdf - Sinha, P., Heath, G., Wade, A., & Komoto, K. (2019). Human Health Risk Assessment Methods for PV, Part 2: Breakage Risks [International Energy Agency (IEA) PVPS Task 12, Report T12-15:2019](ISBN 978-3-906042-87-9). https://iea-pvps.org/wp-content/uploads/2020/01/Task_12-Human_Health_Risk_Assessment_Methods_for_PV_part_2.pdf",,,,,,,
+location,RER,,,,,,,
+reference product,"electricity production, photovoltaic, 3kWp slanted-roof installation, 3kWp, PK/single-Si tandem panel, mounted",,,,,,,
+type,process,,,,,,,
+unit,kilowatt hour,,,,,,,
+Exchanges,,,,,,,,
+name,amount,database,location,unit,categories,type,comment,reference product
+"Energy, solar, converted",3.85,biosphere3,,megajoule,natural resource::in air,biosphere,Table 14.17 in (Jungbluth et al. 2012),
+"Heat, waste",0.25,biosphere3,,megajoule,air,biosphere,Table 14.17 in (Jungbluth et al. 2012),
+"electricity production, photovoltaic, PK/single-Si tandem",1,TandemPV,RER,kilowatt hour,,production,,"electricity production, photovoltaic, 3kWp slanted-roof installation, 3kWp, PK/single-Si tandem panel, mounted"
+"market for wastewater, from residence",0.002909091,ei 3.8 cutoff,RoW,cubic meter,,technosphere,Converted from 2.909 kg to m3,"wastewater, from residence"
+market group for tap water,2.909090909,ei 3.8 cutoff,RER,kilogram,,technosphere,,tap water
+"photovoltaic slanted-roof installation, 3kWp, PK/single-Si tandem, panel, mounted, on roof",1.30757E-05,TandemPV,RER,unit,,technosphere,,"market for, photovoltaic slanted-roof installation, 3kWp, monofacial PK/single-Si panel, mounted, on roof"
+,,,,,,,,
+Activity,"photovoltaic slanted-roof installation, 3kWp, PK/single-Si tandem, panel, mounted, on roof",,,,,,,
+code,48304cf110854de8b4124a9b2533d0d6,,,,,,,
+comment,"Dataset is modelled after Table 12.6 in (Jungbluth et al. 2012). Transport and emission of heat were excluded. The quantity of Silicon PV panel and mounting system were adjusted based on the present day power dentisty of Silicon PV. Both flows were parameterized to allow for analysis of future scenarios with increased power densities. Avoided burdens from recycling of the Silicon PV panel is included in the dataset for its production (see activity ""scSi_panel_RER"" in database ""Panels""). Avoided burdens from end-of-life (EoL) waste treatment of the Balance-of-System (BoS) were included here, because these were not included in the orginal datasets from ecoinvent. Recycleable materials are sent for treatment, with the recycling chain starting at the cut-off point for the recyclable material (i.e. the ""Recycled content, cut-off"" dataset of the respective material) and includes all processing steps up to the point of producing a material that can provide a like-for-like replacement with a virgin material in the technosphere. For more information, see the description of the datasets in the ""EoL"" database. From recycling of corrugated board box, two recycled products can be obtained: linerboard and fluting medium. For simplicity, a 50:50 ratio between both products is assumed here. This can be considered reasonable, since corrugated board box contains liner board and fluting medium at a ratio ranging from 60:40 to 40:60 and because of its overall minor contribution to the impacts from a demand for 1 unit of the product. Avoided burden from incineration of waste materials are included. - Jungbluth et al. 2012 Life Cycle Inventories of Photovoltaics - Version: 2012, https://esu-services.ch/fileadmin/download/publicLCI/jungbluth-2012-LCI-Photovoltaics.pdf [accessed  31-08-2022]",,,,,,,
+location,RER,,,,,,,
+reference product,"market for, photovoltaic slanted-roof installation, 3kWp, monofacial PK/single-Si panel, mounted, on roof",,,,,,,
+type,process,,,,,,,
+unit,unit,,,,,,,
+Exchanges,,,,,,,,
+name,amount,database,location,unit,type,reference product,,
+"photovoltaic slanted-roof installation, 3kWp, PK/single-Si tandem, panel, mounted, on roof",1,TandemPV,RER,unit,production,"market for, photovoltaic slanted-roof installation, 3kWp, monofacial PK/single-Si panel, mounted, on roof",,
+"inverter production, 2.5kW",2.4,ei 3.8 cutoff,RER,unit,technosphere,"inverter, 2.5kW",,
+"market group for electricity, low voltage",1,ei 3.8 cutoff,ENTSO-E,kilowatt hour,technosphere,"electricity, low voltage",,
+"photovoltaic panel, PK/single-Si tandem, at regional storage",370.8,TandemPV,DE,square meter,technosphere,"Photovoltaic panel, perovskite/single-Si tandem, at plant",,
+"photovoltaic mounting system production, for slanted-roof installation",12,ei 3.8 cutoff,RER,square meter,technosphere,"photovoltaic mounting system, for slanted-roof installation",,
+"photovoltaics, electric installation for 3kWp module, at building",1,ei 3.8 cutoff,RoW,unit,technosphere,"photovoltaics, electric installation for 3kWp module, at building",,
+,,,,,,,,
+Activity,"photovoltaic panel, PK/single-Si tandem, at regional storage",,,,,,,
+code,f06fa1d3c529457485a26db952483abc,,,,,,,
+comment,"Dataset is based on Table 28 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. Avoided burdens of electricity and heat from incineration of wastes are included in this dataset, using yields in MJ/kg waste incinerated, which were obtained from the ecoinvent dataset for treatment of the respective waste streams through incineration in Switzerland. Waste to be incinerated are: mixed plastic waste and spent solvent mixture. First generation recycling of the monofacial PSC-scSi tandem panel is modelled as recycling of scSi panel, without additional flows from the PSC-layer in the tandem. This result in an underestimation of emissions and avoided burdens from first generation recycling. Second geenration recycling does take into account the processing of the PSC-layer. Switching between recycling options is done in scenario analysis using a scenario file in which the flow to either first or second generation recycling is set to 0. When assesing this dataset in isolation, i.e. without scenario file, one should manually set the value for the flow of either first or second generation recycling to 0. - Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]",,,,,,,
+location,DE,,,,,,,
+reference product,"Photovoltaic panel, perovskite-Si-tandem, at plant",,,,,,,
+type,process,,,,,,,
+unit,square meter,,,,,,,
+Exchanges,,,,,,,,
+name,amount,database,location,unit,categories,type,comment,reference product
+Lead,0.0000116,biosphere3,,kilogram,air::urban air close to ground,biosphere,,
+Lead,0.0000116,biosphere3,,kilogram,water,biosphere,,
+Water,0.0366,biosphere3,,cubic meter,air::urban air close to ground,biosphere,Conversion from 36.6 kg to m3,
+"Water, cooling, unspecified natural origin",0.731,biosphere3,,cubic meter,natural resource::in water,biosphere,,
+"photovoltaic panel, PK/single-Si tandem, at regional storage",1,TandemPV,DE,square meter,,production,,"Photovoltaic panel, perovskite/single-Si tandem, at plant"
+1-propanol production,0.0159,ei 3.8 cutoff,RER,kilogram,,technosphere,"1-propanol, at plant, RER",1-propanol
+"aluminium alloy production, AlMg3",2.13,ei 3.8 cutoff,RER,kilogram,,technosphere,"aluminium alloy, AlMg3, at plant, RER","aluminium alloy, AlMg3"
+diphenylether-compound production,0.000371,ei 3.8 cutoff,RER,kilogram,,technosphere,"diphenylether-compounds, at regional storehouse, RER",diphenylether-compound
+"ethylvinylacetate production, foil",0.975,ei 3.8 cutoff,RER,kilogram,,technosphere,"ethylvinylacetate, foil, at plant, RER","ethylvinylacetate, foil"
+"glass fibre reinforced plastic production, polyamide, injection moulded",0.295,ei 3.8 cutoff,RER,kilogram,,technosphere,"glass fibre reinforced plastic, polyamide, injection moulding, at plant, RER","glass fibre reinforced plastic, polyamide, injection moulded"
+indium production,0.0075,ei 3.8 cutoff,RER,kilogram,,technosphere,"indium, at regional storage, RER",indium
+market for EUR-flat pallet,0.0313,ei 3.8 cutoff,RER,unit,,technosphere,"EUR-flat pallet, RER",EUR-flat pallet
+"market for chemical, organic",0.0000813,ei 3.8 cutoff,GLO,kilogram,,technosphere,"chemicals organic, at plant, GLO","chemical, organic"
+"market for chemical, organic",0.0000382,ei 3.8 cutoff,GLO,kilogram,,technosphere,"chemicals organic, at plant, GLO","chemical, organic"
+"market for copper, cathode",0.103,ei 3.8 cutoff,GLO,kilogram,,technosphere,"copper, at regional storage, RER","copper, cathode"
+market for corrugated board box,0.763,ei 3.8 cutoff,RER,kilogram,,technosphere,"corrugated board, mixed fibre, single wall, at plant, RER",corrugated board box
+"market for diode, auxilliaries and energy use",0.00281,ei 3.8 cutoff,GLO,kilogram,,technosphere,"diode, unspecified, at plant, GLO","diode, auxilliaries and energy use"
+"market for electricity, medium voltage",23.4,ei 3.8 cutoff,DE,kilowatt hour,,technosphere,"electricity, medium voltage, at grid, DE","electricity, medium voltage"
+"market for epoxy resin, liquid",0.0000927,ei 3.8 cutoff,RER,kilogram,,technosphere,"epoxy resin, liquid, at plant, RER","epoxy resin, liquid"
+market for ethylene bromide,0.000394,ei 3.8 cutoff,RER,kilogram,,technosphere,"ethylene bromide, at plant, RER",ethylene bromide
+"market for flat glass, uncoated",5.08,ei 3.8 cutoff,RER,kilogram,,technosphere,"flat glass, uncoated, at plant, RER","flat glass, uncoated"
+"market for metallization paste, front side",0.00938,ei 3.8 cutoff,RER,kilogram,,technosphere,"metallization paste, front side, at plant, RER","metallization paste, front side"
+market for phenolic resin,0.0000927,ei 3.8 cutoff,RER,kilogram,,technosphere,"phenolic resin, at plant, RER",phenolic resin
+market for photovoltaic panel factory,0.000004,ei 3.8 cutoff,GLO,unit,,technosphere,"photovoltaic panel factory, GLO",photovoltaic panel factory
+market for silicone product,0.122,ei 3.8 cutoff,RER,kilogram,,technosphere,"silicone product, at plant, RER",silicone product
+market for silver,0.00352,ei 3.8 cutoff,GLO,kilogram,,technosphere,"silver, at regional storage, RER",silver
+"market for solvent, organic",0.424,ei 3.8 cutoff,GLO,kilogram,,technosphere,"solvents, organic, unspecified, at plant, GLO","solvent, organic"
+"market for solvent, organic",0.0394,ei 3.8 cutoff,GLO,kilogram,,technosphere,"solvents, organic, unspecified, at plant, GLO","solvent, organic"
+market for tin,0.0075,ei 3.8 cutoff,GLO,kilogram,,technosphere,"tin, at regional storage, RER",tin
+market for tin,0.0129,ei 3.8 cutoff,GLO,kilogram,,technosphere,"tin, at regional storage, RER",tin
+"market for transport, freight, lorry, unspecified",4.61,ei 3.8 cutoff,RER,ton kilometer,,technosphere,"transport, freight, lorry, fleet average, RER","transport, freight, lorry, unspecified"
+"market for transport, freight, sea, container ship",61.4,ei 3.8 cutoff,GLO,ton kilometer,,technosphere,"transport, transoceanic freight ship, OCE","transport, freight, sea, container ship"
+methyl iodide production,0.000394,ei 3.8 cutoff,RER,kilogram,,technosphere,"methyl iodide, RER",methyl iodide
+primary lead production from concentrate,0.00162,ei 3.8 cutoff,GLO,kilogram,,technosphere,"lead, at regional storage, RER",lead
+primary lead production from concentrate,0.000725,ei 3.8 cutoff,GLO,kilogram,,technosphere,"lead, at regional storage, RER",lead
+"photovoltaic cell, single-Si, at plant",1,,CN,square meter,photovoltaic::production of components,technosphere,dataset present in premise,"photovoltaic cell, single-Si, at plant"
+"solar glass production, low-iron",8.13,ei 3.8 cutoff,RER,kilogram,,technosphere,"solar glass, low-iron, at regional storage, RER","solar glass, low-iron"
+"tempering, flat glass",8,ei 3.8 cutoff,RER,kilogram,,technosphere,"tempering, flat glass, RER","tempering, flat glass"
+"wire drawing, copper",0.103,ei 3.8 cutoff,RER,kilogram,,technosphere,"wire drawing, copper, RER","wire drawing, copper"
