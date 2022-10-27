@@ -58,7 +58,7 @@ production pathways:
       variable: Production|Electricity|Renewable|Photovoltaic_commercial
     ecoinvent alias:
       name: electricity production, photovoltaic, commercial
-      reference product: electricity, high voltage
+      reference product: electricity, low voltage
       exists in original database: True
   
   pv2:
