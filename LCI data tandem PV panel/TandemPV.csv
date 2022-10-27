@@ -76,7 +76,7 @@ market for tin,0.0129,ei 3.8 cutoff,GLO,kilogram,,technosphere,"tin, at regional
 methyl iodide production,0.000394,ei 3.8 cutoff,RER,kilogram,,technosphere,"methyl iodide, RER",methyl iodide
 primary lead production from concentrate,0.00162,ei 3.8 cutoff,GLO,kilogram,,technosphere,"lead, at regional storage, RER",lead
 primary lead production from concentrate,0.000725,ei 3.8 cutoff,GLO,kilogram,,technosphere,"lead, at regional storage, RER",lead
-"photovoltaic cell, single-Si, at plant",1,,CN,square meter,photovoltaic::production of components,technosphere,dataset present in premise,"photovoltaic cell, single-Si, at plant"
+"photovoltaic cell, single-Si, at plant",0.935,,CN,square meter,photovoltaic::production of components,technosphere,dataset present in premise,"photovoltaic cell, single-Si, at plant"
 "solar glass production, low-iron",8.13,ei 3.8 cutoff,RER,kilogram,,technosphere,"solar glass, low-iron, at regional storage, RER","solar glass, low-iron"
 "tempering, flat glass",8,ei 3.8 cutoff,RER,kilogram,,technosphere,"tempering, flat glass, RER","tempering, flat glass"
 "wire drawing, copper",0.103,ei 3.8 cutoff,RER,kilogram,,technosphere,"wire drawing, copper, RER","wire drawing, copper"
