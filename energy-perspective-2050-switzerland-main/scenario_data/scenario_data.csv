@@ -7,7 +7,7 @@ image,SSP2-Base,Business As Usual,CH,Production|Electricity|Conventional|Waste-t
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Conventional|Other,PJ/year,1.74,2.203,2.463,3.291,3.863,4.955,5.484,5.484,5.484,5.484,5.484,5.484
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Photovoltaic_commercial,PJ/year,5.71599,9.04554,15.40098,16.96716,18.69462,21.50127,25.22709,25.22709,25.22709,25.22709,25.22709,25.22709
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Photovoltaic2,PJ/year,0,0.069142528,0.235444802,0.324235018,0.571593639,0.821759761,1.060573082,1.156988816,1.253404551,1.349820286,1.542651755,1.928314694
-image,SSP2-Base,Business As Usual,CH,deple_pv_monoSI ,%,1,0.9,0.8,0.75,0.6,0.5,0.45,0.4,0.35,0.3,0.2,0
+image,SSP2-Base,Business As Usual,CH,deple_pv_monoSI,%,1,0.9,0.8,0.75,0.6,0.5,0.45,0.4,0.35,0.3,0.2,0
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Photovoltaic_residential,PJ/year,3.35701,5.243317472,8.809575198,9.640604982,10.40778636,11.80597024,13.75533692,13.65892118,13.56250545,13.46608971,13.27325824,12.88759531
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Wind turbines|Onshore,PJ/year,0.612,1.152,1.176,1.201,1.226,1.25,1.275,1.275,1.275,1.275,1.275,1.275
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Geothermal,PJ/year,0,0.011,0.168,0.259,0.389,0.454,0.605,0.605,0.605,0.605,0.605,0.605
@@ -52,7 +52,7 @@ image,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|R
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Offshore,PJ/year,127.027,210.495,297.586,388.655,395.81,593.401,692.669,692.669,692.669,692.669,692.669,692.669
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Renewable|Biomass,PJ/year,219.931,232.164,242.87,226.044,202.997,179.276,159.577,159.577,159.577,159.577,159.577,159.577
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Import,PJ/year,-175.262,-84.283,-58.32,111.377,229.468,187.812,143.633,143.633,143.633,143.633,143.633,143.633
-image,SSP2-RCP26,ZERO Basis,CH,deple_pv_monoSI ,%,1,0.9,0.8,0.75,0.6,0.5,0.45,0.4,0.35,0.3,0.2,0
+image,SSP2-RCP26,ZERO Basis,CH,deple_pv_monoSI,%,1,0.9,0.8,0.75,0.6,0.5,0.45,0.4,0.35,0.3,0.2,0
 image,SSP2-RCP26,ZERO Basis,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
 image,SSP2-RCP26,ZERO Basis,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
 image,SSP2-RCP26,ZERO Basis,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.302,28.043,14.964,0,0,0,0,0,0,0,0,0
@@ -102,7 +102,7 @@ image,SSP2-RCP26,ZERO Basis,CH,Production|Electricity|Neighbor countries|Renewab
 image,SSP2-RCP26,ZERO Basis,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Offshore,PJ/year,156.24,325.8,596.16,876.96,1234.8,1554.48,1797.84,1797.84,1797.84,1797.84,1797.84,1797.84
 image,SSP2-RCP26,ZERO Basis,CH,Production|Electricity|Neighbor countries|Renewable|Biomass,PJ/year,222.84,233.64,235.8,213.48,168.84,133.56,110.16,110.16,110.16,110.16,110.16,110.16
 image,SSP2-RCP26,ZERO Basis,CH,Production|Electricity|Neighbor countries|Import,PJ/year,-215.28,-141.12,-159.48,-105.84,-253.44,-436.32,-650.16,-650.16,-650.16,-650.16,-650.16,-650.16
-image,SSP2-RCP19,ZERO Basis,CH,deple_pv_monoSI ,%,1,0.9,0.8,0.75,0.6,0.5,0.45,0.4,0.35,0.3,0.2,0
+image,SSP2-RCP19,ZERO Basis,CH,deple_pv_monoSI,%,1,0.9,0.8,0.75,0.6,0.5,0.45,0.4,0.35,0.3,0.2,0
 image,SSP2-RCP19,ZERO Basis,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
 image,SSP2-RCP19,ZERO Basis,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
 image,SSP2-RCP19,ZERO Basis,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.302,28.043,14.964,0,0,0,0,0,0,0,0,0
@@ -152,7 +152,7 @@ image,SSP2-RCP19,ZERO Basis,CH,Production|Electricity|Neighbor countries|Renewab
 image,SSP2-RCP19,ZERO Basis,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Offshore,PJ/year,156.24,325.8,596.16,876.96,1234.8,1554.48,1797.84,1797.84,1797.84,1797.84,1797.84,1797.84
 image,SSP2-RCP19,ZERO Basis,CH,Production|Electricity|Neighbor countries|Renewable|Biomass,PJ/year,222.84,233.64,235.8,213.48,168.84,133.56,110.16,110.16,110.16,110.16,110.16,110.16
 image,SSP2-RCP19,ZERO Basis,CH,Production|Electricity|Neighbor countries|Import,PJ/year,-215.28,-141.12,-159.48,-105.84,-253.44,-436.32,-650.16,-650.16,-650.16,-650.16,-650.16,-650.16
-remind,SSP2-Base,Business As Usual,CH,deple_pv_monoSI ,%,1,0.9,0.8,0.75,0.6,0.5,0.45,0.4,0.35,0.3,0.2,0
+remind,SSP2-Base,Business As Usual,CH,deple_pv_monoSI,%,1,0.9,0.8,0.75,0.6,0.5,0.45,0.4,0.35,0.3,0.2,0
 remind,SSP2-Base,Business As Usual,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.002,63.994,63.928,63.119,61.774,59.235,58.097,58.097,58.097,58.097,58.097,58.097
 remind,SSP2-Base,Business As Usual,CH,Production|Electricity|Reservoir,PJ/year,76.367,79.679,81.45,79.47,79.556,81.238,82.102,82.102,82.102,82.102,82.102,82.102
 remind,SSP2-Base,Business As Usual,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.30202,28.321,15.165,0,0,0,0,0,0,0,0,0
@@ -202,7 +202,7 @@ remind,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|
 remind,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Offshore,PJ/year,127.027,210.495,297.586,388.655,395.81,593.401,692.669,692.669,692.669,692.669,692.669,692.669
 remind,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Renewable|Biomass,PJ/year,219.931,232.164,242.87,226.044,202.997,179.276,159.577,159.577,159.577,159.577,159.577,159.577
 remind,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Import,PJ/year,-175.262,-84.283,-58.32,111.377,229.468,187.812,143.633,143.633,143.633,143.633,143.633,143.633
-remind,SSP2-PkBudg1150,ZERO Basis,CH,deple_pv_monoSI ,%,1,0.9,0.8,0.75,0.6,0.5,0.45,0.4,0.35,0.3,0.2,0
+remind,SSP2-PkBudg1150,ZERO Basis,CH,deple_pv_monoSI,%,1,0.9,0.8,0.75,0.6,0.5,0.45,0.4,0.35,0.3,0.2,0
 remind,SSP2-PkBudg1150,ZERO Basis,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
 remind,SSP2-PkBudg1150,ZERO Basis,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
 remind,SSP2-PkBudg1150,ZERO Basis,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.302,28.043,14.964,0,0,0,0,0,0,0,0,0
@@ -252,7 +252,7 @@ remind,SSP2-PkBudg1150,ZERO Basis,CH,Production|Electricity|Neighbor countries|R
 remind,SSP2-PkBudg1150,ZERO Basis,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Offshore,PJ/year,156.24,325.8,596.16,876.96,1234.8,1554.48,1797.84,1797.84,1797.84,1797.84,1797.84,1797.84
 remind,SSP2-PkBudg1150,ZERO Basis,CH,Production|Electricity|Neighbor countries|Renewable|Biomass,PJ/year,222.84,233.64,235.8,213.48,168.84,133.56,110.16,110.16,110.16,110.16,110.16,110.16
 remind,SSP2-PkBudg1150,ZERO Basis,CH,Production|Electricity|Neighbor countries|Import,PJ/year,-215.28,-141.12,-159.48,-105.84,-253.44,-436.32,-650.16,-650.16,-650.16,-650.16,-650.16,-650.16
-remind,SSP2-PkBudg500,ZERO Basis,CH,deple_pv_monoSI ,%,1,0.9,0.8,0.75,0.6,0.5,0.45,0.4,0.35,0.3,0.2,0
+remind,SSP2-PkBudg500,ZERO Basis,CH,deple_pv_monoSI,%,1,0.9,0.8,0.75,0.6,0.5,0.45,0.4,0.35,0.3,0.2,0
 remind,SSP2-PkBudg500,ZERO Basis,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
 remind,SSP2-PkBudg500,ZERO Basis,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
 remind,SSP2-PkBudg500,ZERO Basis,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.302,28.043,14.964,0,0,0,0,0,0,0,0,0
