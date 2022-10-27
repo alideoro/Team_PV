@@ -1,0 +1,1039 @@
+﻿Project parameters;;;;;;;;;;
+name;amount;formula;comment;;;;;;;
+kg_to_m3;0.001;1/1000;"1 m3 / 1000 kg; conversion from mass to volume for water ONLY!";;;;;;;
+;;;;;;;;;;
+Database;TandemPV;;;;;;;;;
+;;;;;;;;;;
+Database parameters;;;;;;;;;;
+name;amount;formula;comment;database;;;;;;
+MFT_area_per_3kWp;370.8;mounting_area_MFT*(1+repair_rate+reject_rate)*(lifetime_installation/lifetime_MFT);m2/3kWp;TandemPV;;;;;;
+electrical_installation;1;;"electrical installation/3kWp installation; Table 11.4 in (Jungbluth et al., 2009)";TandemPV;;;;;;
+electricity_installation;1;lifetime_installation / lifetime_electric_install;"kWh/3kWp installation; Table 11.4 in (Jungbluth et al., 2009)";TandemPV;;;;;;
+insolation;1100;;"1100 kWh/m2/yr; assumption";TandemPV;;;;;;
+installation_per_kWh;1.30757E-05;light_intensity_STC/(insolation*lifetime_installation*performance_ratio*(1+repair_rate+reject_rate)*power_of_installation);3 kWp installation / kWh;TandemPV;;;;;;
+inverter_per_3kWp;2.4;(power_of_installation/power_of_inverter)*(lifetime_installation/lifetime_inverter);inverter / 3 kWp installation;TandemPV;;;;;;
+lifetime_MFT;1;;"1 yr; assumption; highly uncertain; assess in sensitivity analysis";TandemPV;;;;;;
+lifetime_electric_install;30;;"30 yr; assumption";TandemPV;;;;;;
+lifetime_installation;30;;"30 yr; assumption";TandemPV;;;;;;
+lifetime_inverter;15;;"15 yr; assumption";TandemPV;;;;;;
+lifetime_mounting;30;;"30 yr; assumption";TandemPV;;;;;;
+light_intensity_STC;1;;"1kW/m2; standard test conditions";TandemPV;;;;;;
+mounting_area_MFT;12;((power_of_installation/light_intensity_STC)/power_density_MFT)*(lifetime_installation/lifetime_mounting);m2 / 3kWp installation;TandemPV;;;;;;
+performance_ratio;0.75;;"0.75 [dimensionless]; assumption";TandemPV;;;;;;
+power_density_MFT;0.25;;"25%; improves over time; assess in scenario analysis";TandemPV;;;;;;
+power_of_installation;3;;3 kWp installation;TandemPV;;;;;;
+power_of_inverter;2.5;;"2.5 kW/unit; Table 10.19 in (Jungbluth et al., 2009)";TandemPV;;;;;;
+reject_rate;0.01;;"1% reject rate; p.120 in (Jungbluth et al., 2009)";TandemPV;;;;;;
+repair_rate;0.02;;"2% repair rate; p.120 in (Jungbluth et al., 2009)";TandemPV;;;;;;
+water_MFT_per_kWh;2.909090909;installation_per_kWh*MFT_area_per_3kWp*water_panel_cleaning*lifetime_installation;kg/kWh;TandemPV;;;;;;
+water_panel_cleaning;20;;"L/m2a; p.149 in (Jungbluth et al. 2012)";TandemPV;;;;;;
+;;;;;;;;;;
+Activity;MG_Si_APAC;;;;;;;;;
+code;4b0c810d37434db5aad03ae74d09eb69_copy4;;;;;;;;;
+comment;"Dataset is based on Table 6 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;APAC;;;;;;;;;
+reference product;MG-Silicon, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilogram;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;comment;reference product;;
+Aluminium;0.00000155;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Antimony;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Arsenic;9.42E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Boron;0.000000279;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Cadmium;3.14E-10;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Calcium;0.000000775;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon dioxide, fossil;3.58;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon dioxide, non-fossil;1.61;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon monoxide, fossil;0.00138;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon monoxide, non-fossil;0.00062;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Chlorine;7.85E-08;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Chromium;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Cyanide;0.00000687;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Fluorine;3.88E-08;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Heat, waste;71.3;biosphere3;;megajoule;air::low population density, long-term;biosphere;;;;
+Hydrogen fluoride;0.000504;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Hydrogen sulfide;0.000504;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Iron;0.00000388;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Lead;0.000000344;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Mercury;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+NMVOC, non-methane volatile organic compounds, unspecified origin;0.000096;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Nitrogen oxides;0.00974;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Particulates, > 10 um;0.00775;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Potassium;0.000062;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Silicon;0.00751;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Sodium;0.000000775;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Sulfur dioxide;0.0122;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Tin;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+MG_Si_APAC;1;TandemPV;APAC;kilogram;;production;;MG-Silicon, at plant;;
+graphite production;0.1;ei 3.8 cutoff;RER;kilogram;;technosphere;graphite, at plant, RER;graphite;;
+market for charcoal;0.17;ei 3.8 cutoff;GLO;kilogram;;technosphere;charcoal, at plant, GLO;charcoal;;
+market for coke;23.1;ei 3.8 cutoff;GLO;megajoule;;technosphere;hard coal coke, at plant, RER;coke;;
+market for electricity, medium voltage;11;ei 3.8 cutoff;KR;kilowatt hour;;technosphere;electricity, medium voltage, at grid, KR;electricity, medium voltage;;
+market for oxygen, liquid;0.02;ei 3.8 cutoff;RER;kilogram;;technosphere;oxygen, liquid, at plant, RER;oxygen, liquid;;
+market for transport, freight, lorry, unspecified;0.156;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, lorry, fleet average, RER;transport, freight, lorry, unspecified;;
+market for transport, freight, sea, container ship;2.55;ei 3.8 cutoff;GLO;ton kilometer;;technosphere;transport, transoceanic freight ship, OCE;transport, freight, sea, container ship;;
+market for wood chips, wet, measured as dry mass;0.00325;ei 3.8 cutoff;Europe without Switzerland;kilogram;;technosphere;wood chips, production mix, wet, measured as dry mass, at forest road & at sawmill, RER;wood chips, wet, measured as dry mass;;
+market group for transport, freight train;0.069;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, rail, RER;transport, freight train;;
+petroleum coke production, petroleum refinery operation;0.5;ei 3.8 cutoff;Europe without Switzerland;kilogram;;technosphere;petroleum coke, at refinery, RR;petroleum coke;;
+silica sand production;2.7;ei 3.8 cutoff;DE;kilogram;;technosphere;silica sand, at plant, DE;silica sand;;
+silicone factory construction;1E-11;ei 3.8 cutoff;RER;unit;;technosphere;silicone plant, RER;silicone factory;;
+treatment of slag from metallurgical grade silicon production, inert material landfill;-0.025;ei 3.8 cutoff;CH;kilogram;;technosphere;disposal, slag from MG silicon production, 0% water, to inert material landfill, CH;slag from metallurgical grade silicon production;;
+;;;;;;;;;;
+Activity;MG_Si_CN;;;;;;;;;
+code;4b0c810d37434db5aad03ae74d09eb69_copy3;;;;;;;;;
+comment;"Dataset is based on Table 6 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;CN;;;;;;;;;
+reference product;MG-Silicon, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilogram;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;comment;reference product;;
+Aluminium;0.00000155;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Antimony;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Arsenic;9.42E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Boron;0.000000279;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Cadmium;3.14E-10;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Calcium;0.000000775;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon dioxide, fossil;3.58;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon dioxide, non-fossil;1.61;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon monoxide, fossil;0.00138;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon monoxide, non-fossil;0.00062;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Chlorine;7.85E-08;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Chromium;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Cyanide;0.00000687;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Fluorine;3.88E-08;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Heat, waste;71.3;biosphere3;;megajoule;air::low population density, long-term;biosphere;;;;
+Hydrogen fluoride;0.000504;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Hydrogen sulfide;0.000504;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Iron;0.00000388;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Lead;0.000000344;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Mercury;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+NMVOC, non-methane volatile organic compounds, unspecified origin;0.000096;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Nitrogen oxides;0.00974;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Particulates, > 10 um;0.00775;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Potassium;0.000062;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Silicon;0.00751;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Sodium;0.000000775;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Sulfur dioxide;0.0122;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Tin;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+MG_Si_CN;1;TandemPV;CN;kilogram;;production;;MG-Silicon, at plant;;
+graphite production;0.1;ei 3.8 cutoff;RER;kilogram;;technosphere;graphite, at plant, RER;graphite;;
+market for charcoal;0.17;ei 3.8 cutoff;GLO;kilogram;;technosphere;charcoal, at plant, GLO;charcoal;;
+market for coke;23.1;ei 3.8 cutoff;GLO;megajoule;;technosphere;hard coal coke, at plant, RER;coke;;
+market for oxygen, liquid;0.02;ei 3.8 cutoff;RER;kilogram;;technosphere;oxygen, liquid, at plant, RER;oxygen, liquid;;
+market for transport, freight, lorry, unspecified;0.156;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, lorry, fleet average, RER;transport, freight, lorry, unspecified;;
+market for transport, freight, sea, container ship;2.55;ei 3.8 cutoff;GLO;ton kilometer;;technosphere;transport, transoceanic freight ship, OCE;transport, freight, sea, container ship;;
+market for wood chips, wet, measured as dry mass;0.00325;ei 3.8 cutoff;Europe without Switzerland;kilogram;;technosphere;wood chips, production mix, wet, measured as dry mass, at forest road & at sawmill, RER;wood chips, wet, measured as dry mass;;
+market group for electricity, medium voltage;11;ei 3.8 cutoff;CN;kilowatt hour;;technosphere;electricity, medium voltage, at grid, CN;electricity, medium voltage;;
+market group for transport, freight train;0.069;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, rail, RER;transport, freight train;;
+petroleum coke production, petroleum refinery operation;0.5;ei 3.8 cutoff;Europe without Switzerland;kilogram;;technosphere;petroleum coke, at refinery, RR;petroleum coke;;
+silica sand production;2.7;ei 3.8 cutoff;DE;kilogram;;technosphere;silica sand, at plant, DE;silica sand;;
+silicone factory construction;1E-11;ei 3.8 cutoff;RER;unit;;technosphere;silicone plant, RER;silicone factory;;
+treatment of slag from metallurgical grade silicon production, inert material landfill;-0.025;ei 3.8 cutoff;CH;kilogram;;technosphere;disposal, slag from MG silicon production, 0% water, to inert material landfill, CH;slag from metallurgical grade silicon production;;
+;;;;;;;;;;
+Activity;MG_Si_NO;;;;;;;;;
+code;4b0c810d37434db5aad03ae74d09eb69_copy1;;;;;;;;;
+comment;"Dataset is based on Table 6 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;NO;;;;;;;;;
+reference product;MG-Silicon, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilogram;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;comment;reference product;;
+Aluminium;0.00000155;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Antimony;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Arsenic;9.42E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Boron;0.000000279;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Cadmium;3.14E-10;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Calcium;0.000000775;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon dioxide, fossil;3.58;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon dioxide, non-fossil;1.61;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon monoxide, fossil;0.00138;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon monoxide, non-fossil;0.00062;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Chlorine;7.85E-08;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Chromium;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Cyanide;0.00000687;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Fluorine;3.88E-08;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Heat, waste;71.3;biosphere3;;megajoule;air::low population density, long-term;biosphere;;;;
+Hydrogen fluoride;0.000504;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Hydrogen sulfide;0.000504;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Iron;0.00000388;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Lead;0.000000344;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Mercury;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+NMVOC, non-methane volatile organic compounds, unspecified origin;0.000096;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Nitrogen oxides;0.00974;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Particulates, > 10 um;0.00775;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Potassium;0.000062;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Silicon;0.00751;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Sodium;0.000000775;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Sulfur dioxide;0.0122;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Tin;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+MG_Si_NO;1;TandemPV;NO;kilogram;;production;;MG-Silicon, at plant;;
+graphite production;0.1;ei 3.8 cutoff;RER;kilogram;;technosphere;graphite, at plant, RER;graphite;;
+market for charcoal;0.17;ei 3.8 cutoff;GLO;kilogram;;technosphere;charcoal, at plant, GLO;charcoal;;
+market for coke;23.1;ei 3.8 cutoff;GLO;megajoule;;technosphere;hard coal coke, at plant, RER;coke;;
+market for electricity, medium voltage;11;ei 3.8 cutoff;NO;kilowatt hour;;technosphere;electricity, medium voltage, at grid, NO;electricity, medium voltage;;
+market for oxygen, liquid;0.02;ei 3.8 cutoff;RER;kilogram;;technosphere;oxygen, liquid, at plant, RER;oxygen, liquid;;
+market for transport, freight, lorry, unspecified;0.156;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, lorry, fleet average, RER;transport, freight, lorry, unspecified;;
+market for transport, freight, sea, container ship;2.55;ei 3.8 cutoff;GLO;ton kilometer;;technosphere;transport, transoceanic freight ship, OCE;transport, freight, sea, container ship;;
+market for wood chips, wet, measured as dry mass;0.00325;ei 3.8 cutoff;Europe without Switzerland;kilogram;;technosphere;wood chips, production mix, wet, measured as dry mass, at forest road & at sawmill, RER;wood chips, wet, measured as dry mass;;
+market group for transport, freight train;0.069;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, rail, RER;transport, freight train;;
+petroleum coke production, petroleum refinery operation;0.5;ei 3.8 cutoff;Europe without Switzerland;kilogram;;technosphere;petroleum coke, at refinery, RR;petroleum coke;;
+silica sand production;2.7;ei 3.8 cutoff;DE;kilogram;;technosphere;silica sand, at plant, DE;silica sand;;
+silicone factory construction;1E-11;ei 3.8 cutoff;RER;unit;;technosphere;silicone plant, RER;silicone factory;;
+treatment of slag from metallurgical grade silicon production, inert material landfill;-0.025;ei 3.8 cutoff;CH;kilogram;;technosphere;disposal, slag from MG silicon production, 0% water, to inert material landfill, CH;slag from metallurgical grade silicon production;;
+;;;;;;;;;;
+Activity;MG_Si_US;;;;;;;;;
+code;4b0c810d37434db5aad03ae74d09eb69_copy2;;;;;;;;;
+comment;"Dataset is based on Table 6 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;US;;;;;;;;;
+reference product;MG-Silicon, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilogram;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;comment;reference product;;
+Aluminium;0.00000155;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Antimony;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Arsenic;9.42E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Boron;0.000000279;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Cadmium;3.14E-10;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Calcium;0.000000775;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon dioxide, fossil;3.58;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon dioxide, non-fossil;1.61;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon monoxide, fossil;0.00138;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Carbon monoxide, non-fossil;0.00062;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Chlorine;7.85E-08;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Chromium;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Cyanide;0.00000687;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Fluorine;3.88E-08;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Heat, waste;71.3;biosphere3;;megajoule;air::low population density, long-term;biosphere;;;;
+Hydrogen fluoride;0.000504;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Hydrogen sulfide;0.000504;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Iron;0.00000388;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Lead;0.000000344;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Mercury;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+NMVOC, non-methane volatile organic compounds, unspecified origin;0.000096;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Nitrogen oxides;0.00974;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Particulates, > 10 um;0.00775;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Potassium;0.000062;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Silicon;0.00751;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Sodium;0.000000775;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Sulfur dioxide;0.0122;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+Tin;7.85E-09;biosphere3;;kilogram;air::low population density, long-term;biosphere;;;;
+MG_Si_US;1;TandemPV;US;kilogram;;production;;MG-Silicon, at plant;;
+graphite production;0.1;ei 3.8 cutoff;RER;kilogram;;technosphere;graphite, at plant, RER;graphite;;
+market for charcoal;0.17;ei 3.8 cutoff;GLO;kilogram;;technosphere;charcoal, at plant, GLO;charcoal;;
+market for coke;23.1;ei 3.8 cutoff;GLO;megajoule;;technosphere;hard coal coke, at plant, RER;coke;;
+market for oxygen, liquid;0.02;ei 3.8 cutoff;RER;kilogram;;technosphere;oxygen, liquid, at plant, RER;oxygen, liquid;;
+market for transport, freight, lorry, unspecified;0.156;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, lorry, fleet average, RER;transport, freight, lorry, unspecified;;
+market for transport, freight, sea, container ship;2.55;ei 3.8 cutoff;GLO;ton kilometer;;technosphere;transport, transoceanic freight ship, OCE;transport, freight, sea, container ship;;
+market for wood chips, wet, measured as dry mass;0.00325;ei 3.8 cutoff;Europe without Switzerland;kilogram;;technosphere;wood chips, production mix, wet, measured as dry mass, at forest road & at sawmill, RER;wood chips, wet, measured as dry mass;;
+market group for electricity, medium voltage;11;ei 3.8 cutoff;US;kilowatt hour;;technosphere;electricity, medium voltage, at grid, US;electricity, medium voltage;;
+market group for transport, freight train;0.069;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, rail, RER;transport, freight train;;
+petroleum coke production, petroleum refinery operation;0.5;ei 3.8 cutoff;Europe without Switzerland;kilogram;;technosphere;petroleum coke, at refinery, RR;petroleum coke;;
+silica sand production;2.7;ei 3.8 cutoff;DE;kilogram;;technosphere;silica sand, at plant, DE;silica sand;;
+silicone factory construction;1E-11;ei 3.8 cutoff;RER;unit;;technosphere;silicone plant, RER;silicone factory;;
+treatment of slag from metallurgical grade silicon production, inert material landfill;-0.025;ei 3.8 cutoff;CH;kilogram;;technosphere;disposal, slag from MG silicon production, 0% water, to inert material landfill, CH;slag from metallurgical grade silicon production;;
+;;;;;;;;;;
+Activity;SG_Si_APAC;;;;;;;;;
+code;642e79b240f44f8db29bd7fa164f0c82_copy1;;;;;;;;;
+comment;"Dataset is based on Table 7 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;APAC;;;;;;;;;
+reference product;SG-Silicon, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilogram;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;comment;reference product;;
+AOX, Adsorbable Organic Halogen as Cl;0.0000126;biosphere3;;kilogram;water::surface water;biosphere;;;;
+BOD5, Biological Oxygen Demand;0.000205;biosphere3;;kilogram;water::surface water;biosphere;;;;
+COD, Chemical Oxygen Demand;0.00202;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Chlorine;0.036;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Copper, ion;0.000000102;biosphere3;;kilogram;water::surface water;biosphere;;;;
+DOC, Dissolved Organic Carbon;0.00091;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Heat, waste;176;biosphere3;;megajoule;air::urban air close to ground;biosphere;;;;
+Iron, ion;0.00000561;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Nitrogen;0.000208;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Phosphate;0.0000028;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Sodium, ion;0.0338;biosphere3;;kilogram;water::surface water;biosphere;;;;
+TOC, Total Organic Carbon;0.00091;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Zinc, ion;0.00000196;biosphere3;;kilogram;water::surface water;biosphere;;;;
+SG_Si_APAC;1;TandemPV;APAC;kilogram;;production;;SG-Silicon, at plant;;
+MG_Si_APAC;1.13;TandemPV;APAC;kilogram;;technosphere;MG-silicon, at plant, APAC;MG-Silicon, at plant;;
+heat and power co-generation, natural gas, 1MW electrical, lean burn;28.8;ei 3.8 cutoff;Europe without Switzerland;megajoule;;technosphere;heat, at cogen 1MWe lean burn, allocation exergy, RER;heat, district or industrial, natural gas;;
+market for electricity, medium voltage;49;ei 3.8 cutoff;KR;kilowatt hour;;technosphere;electricity, medium voltage, at grid, KR;electricity, medium voltage;;
+market for hydrochloric acid, without water, in 30% solution state;1.6;ei 3.8 cutoff;RER;kilogram;;technosphere;hydrochloric acid, 30% in H2O, at plant, RER;hydrochloric acid, without water, in 30% solution state;;
+market for hydrogen, liquid;0.0501;ei 3.8 cutoff;RER;kilogram;;technosphere;hydrogen, liquid, at plant, RER;hydrogen, liquid;;
+market for sodium hydroxide, without water, in 50% solution state;0.348;ei 3.8 cutoff;GLO;kilogram;;technosphere;sodium hydroxide, 50% in H2O, production mix, at plant, RER;sodium hydroxide, without water, in 50% solution state;;
+market for transport, freight, lorry, unspecified;2.87;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, lorry, fleet average, RER;transport, freight, lorry, unspecified;;
+market group for transport, freight train;3.65;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, rail, RER;transport, freight train;;
+silicone factory construction;1E-11;ei 3.8 cutoff;RER;unit;;technosphere;silicone plant, RER;silicone factory;;
+;;;;;;;;;;
+Activity;SG_Si_CN;;;;;;;;;
+code;9d63d169bcea411589b94d93737213a4_copy1;;;;;;;;;
+comment;"Dataset is based on Table 7 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;CN;;;;;;;;;
+reference product;SG-Silicon, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilogram;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;comment;reference product;;
+AOX, Adsorbable Organic Halogen as Cl;0.0000126;biosphere3;;kilogram;water::surface water;biosphere;;;;
+BOD5, Biological Oxygen Demand;0.000205;biosphere3;;kilogram;water::surface water;biosphere;;;;
+COD, Chemical Oxygen Demand;0.00202;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Chlorine;0.036;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Copper, ion;0.000000102;biosphere3;;kilogram;water::surface water;biosphere;;;;
+DOC, Dissolved Organic Carbon;0.00091;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Heat, waste;176;biosphere3;;megajoule;air::urban air close to ground;biosphere;;;;
+Iron, ion;0.00000561;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Nitrogen;0.000208;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Phosphate;0.0000028;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Sodium, ion;0.0338;biosphere3;;kilogram;water::surface water;biosphere;;;;
+TOC, Total Organic Carbon;0.00091;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Zinc, ion;0.00000196;biosphere3;;kilogram;water::surface water;biosphere;;;;
+SG_Si_CN;1;TandemPV;CN;kilogram;;production;;SG-Silicon, at plant;;
+MG_Si_CN;1.13;TandemPV;CN;kilogram;;technosphere;MG-silicon, at plant, CN;MG-Silicon, at plant;;
+heat and power co-generation, natural gas, 1MW electrical, lean burn;28.8;ei 3.8 cutoff;Europe without Switzerland;megajoule;;technosphere;heat, at cogen 1MWe lean burn, allocation exergy, RER;heat, district or industrial, natural gas;;
+market for hydrochloric acid, without water, in 30% solution state;1.6;ei 3.8 cutoff;RER;kilogram;;technosphere;hydrochloric acid, 30% in H2O, at plant, RER;hydrochloric acid, without water, in 30% solution state;;
+market for hydrogen, liquid;0.0501;ei 3.8 cutoff;RER;kilogram;;technosphere;hydrogen, liquid, at plant, RER;hydrogen, liquid;;
+market for sodium hydroxide, without water, in 50% solution state;0.348;ei 3.8 cutoff;GLO;kilogram;;technosphere;sodium hydroxide, 50% in H2O, production mix, at plant, RER;sodium hydroxide, without water, in 50% solution state;;
+market for transport, freight, lorry, unspecified;2.87;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, lorry, fleet average, RER;transport, freight, lorry, unspecified;;
+market group for electricity, medium voltage;49;ei 3.8 cutoff;CN;kilowatt hour;;technosphere;electricity, medium voltage, at grid, CN;electricity, medium voltage;;
+market group for transport, freight train;3.65;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, rail, RER;transport, freight train;;
+silicone factory construction;1E-11;ei 3.8 cutoff;RER;unit;;technosphere;silicone plant, RER;silicone factory;;
+;;;;;;;;;;
+Activity;SG_Si_RER;;;;;;;;;
+code;bd450b5568ae4cee9c3b3e55332c263e_copy1;;;;;;;;;
+comment;"Dataset is based on Table 7 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+Swedish hydroelectricity from run-of-river was selected to represent the input 'electricity, hydropower, at run-of-river power plant, RER' since it has the largest production volume of electricity from run-of-river in the ENTSO-E region. However, all European datasets for electricity production from run-of-river in ecoinvent have equivalent inputs and outputs and therefore result in the same impacts per kWh. The choice for the Swedish dataset therefore does not impact the environmental impacts for the reference flow.
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;RER;;;;;;;;;
+reference product;SG-Silicon, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilogram;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;comment;reference product;;
+AOX, Adsorbable Organic Halogen as Cl;0.0000126;biosphere3;;kilogram;water::surface water;biosphere;;;;
+BOD5, Biological Oxygen Demand;0.000205;biosphere3;;kilogram;water::surface water;biosphere;;;;
+COD, Chemical Oxygen Demand;0.00202;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Chlorine;0.036;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Copper, ion;0.000000102;biosphere3;;kilogram;water::surface water;biosphere;;;;
+DOC, Dissolved Organic Carbon;0.00091;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Heat, waste;176;biosphere3;;megajoule;air::urban air close to ground;biosphere;;;;
+Iron, ion;0.00000561;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Nitrogen;0.000208;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Phosphate;0.0000028;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Sodium, ion;0.0338;biosphere3;;kilogram;water::surface water;biosphere;;;;
+TOC, Total Organic Carbon;0.00091;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Zinc, ion;0.00000196;biosphere3;;kilogram;water::surface water;biosphere;;;;
+SG_Si_RER;1;TandemPV;RER;kilogram;;production;;SG-Silicon, at plant;;
+MG_Si_NO;1.13;TandemPV;NO;kilogram;;technosphere;MG-silicon, at plant, NO;MG-Silicon, at plant;;
+electricity production, hydro, run-of-river;3.93;ei 3.8 cutoff;SE;kilowatt hour;;technosphere;electricity, hydropower, at run-of-river power plant, RER;electricity, high voltage;;
+heat and power co-generation, natural gas, 1MW electrical, lean burn;28.8;ei 3.8 cutoff;Europe without Switzerland;megajoule;;technosphere;heat, at cogen 1MWe lean burn, allocation exergy, RER;heat, district or industrial, natural gas;;
+heat and power co-generation, natural gas, 1MW electrical, lean burn;17.5;ei 3.8 cutoff;Europe without Switzerland;kilowatt hour;;technosphere;electricity, at cogen 1MWe lean burn, allocation exergy, RER;electricity, high voltage;;
+market for electricity, medium voltage;22.3;ei 3.8 cutoff;DE;kilowatt hour;;technosphere;electricity, medium voltage, at grid, DE;electricity, medium voltage;;
+market for electricity, medium voltage;5.37;ei 3.8 cutoff;NO;kilowatt hour;;technosphere;electricity, medium voltage, at grid, NO;electricity, medium voltage;;
+market for hydrochloric acid, without water, in 30% solution state;1.6;ei 3.8 cutoff;RER;kilogram;;technosphere;hydrochloric acid, 30% in H2O, at plant, RER;hydrochloric acid, without water, in 30% solution state;;
+market for hydrogen, liquid;0.0501;ei 3.8 cutoff;RER;kilogram;;technosphere;hydrogen, liquid, at plant, RER;hydrogen, liquid;;
+market for sodium hydroxide, without water, in 50% solution state;0.348;ei 3.8 cutoff;GLO;kilogram;;technosphere;sodium hydroxide, 50% in H2O, production mix, at plant, RER;sodium hydroxide, without water, in 50% solution state;;
+market for transport, freight, lorry, unspecified;2.87;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, lorry, fleet average, RER;transport, freight, lorry, unspecified;;
+market group for transport, freight train;3.65;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, rail, RER;transport, freight train;;
+silicone factory construction;1E-11;ei 3.8 cutoff;RER;unit;;technosphere;silicone plant, RER;silicone factory;;
+;;;;;;;;;;
+Activity;SG_Si_US;;;;;;;;;
+code;cb7a4b99464e451cb73975989949b8a1_copy1;;;;;;;;;
+comment;"Dataset is based on Table 7 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+Swedish hydroelectricity from run-of-river was selected to represent the input 'electricity, hydropower, at run-of-river power plant, RER' since it has the largest production volume of electricity from run-of-river in the ENTSO-E region. However, all European datasets for electricity production from run-of-river in ecoinvent have equivalent inputs and outputs and therefore result in the same impacts per kWh. The choice for the Swedish dataset therefore does not impact the environmental impacts for the reference flow.
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;US;;;;;;;;;
+reference product;SG-Silicon, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilogram;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;comment;reference product;;
+AOX, Adsorbable Organic Halogen as Cl;0.0000126;biosphere3;;kilogram;water::surface water;biosphere;;;;
+BOD5, Biological Oxygen Demand;0.000205;biosphere3;;kilogram;water::surface water;biosphere;;;;
+COD, Chemical Oxygen Demand;0.00202;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Chlorine;0.036;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Copper, ion;0.000000102;biosphere3;;kilogram;water::surface water;biosphere;;;;
+DOC, Dissolved Organic Carbon;0.00091;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Heat, waste;176;biosphere3;;megajoule;air::urban air close to ground;biosphere;;;;
+Iron, ion;0.00000561;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Nitrogen;0.000208;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Phosphate;0.0000028;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Sodium, ion;0.0338;biosphere3;;kilogram;water::surface water;biosphere;;;;
+TOC, Total Organic Carbon;0.00091;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Zinc, ion;0.00000196;biosphere3;;kilogram;water::surface water;biosphere;;;;
+SG_Si_US;1;TandemPV;US;kilogram;;production;;SG-Silicon, at plant;;
+MG_Si_US;1.13;TandemPV;US;kilogram;;technosphere;MG-silicon, at plant, US;MG-Silicon, at plant;;
+electricity production, hydro, run-of-river;1.18;ei 3.8 cutoff;SE;kilowatt hour;;technosphere;electricity, hydropower, at run-of-river power plant, RER;electricity, high voltage;;
+heat and power co-generation, natural gas, 1MW electrical, lean burn;28.8;ei 3.8 cutoff;Europe without Switzerland;megajoule;;technosphere;heat, at cogen 1MWe lean burn, allocation exergy, RER;heat, district or industrial, natural gas;;
+market for hydrochloric acid, without water, in 30% solution state;1.6;ei 3.8 cutoff;RER;kilogram;;technosphere;hydrochloric acid, 30% in H2O, at plant, RER;hydrochloric acid, without water, in 30% solution state;;
+market for hydrogen, liquid;0.0501;ei 3.8 cutoff;RER;kilogram;;technosphere;hydrogen, liquid, at plant, RER;hydrogen, liquid;;
+market for sodium hydroxide, without water, in 50% solution state;0.348;ei 3.8 cutoff;GLO;kilogram;;technosphere;sodium hydroxide, 50% in H2O, production mix, at plant, RER;sodium hydroxide, without water, in 50% solution state;;
+market for transport, freight, lorry, unspecified;2.87;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, lorry, fleet average, RER;transport, freight, lorry, unspecified;;
+market group for electricity, medium voltage;37.2;ei 3.8 cutoff;US;kilowatt hour;;technosphere;electricity, medium voltage, at grid, US;electricity, medium voltage;;
+market group for transport, freight train;3.65;ei 3.8 cutoff;RER;ton kilometer;;technosphere;transport, freight, rail, RER;transport, freight train;;
+silicone factory construction;1E-11;ei 3.8 cutoff;RER;unit;;technosphere;silicone plant, RER;silicone factory;;
+;;;;;;;;;;
+Activity;Si_prod_mix_APAC;;;;;;;;;
+code;0450d1ff1efe47519018e49d14e4192d_copy1;;;;;;;;;
+comment;"Dataset is based on Table 8 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;APAC;;;;;;;;;
+reference product;Silicon, production mix, photovoltaics, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilogram;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;type;comment;reference product;;;
+Si_prod_mix_APAC;1;TandemPV;APAC;kilogram;production;;Silicon, production mix, photovoltaics, at plant;;;
+SG_Si_APAC;1;TandemPV;APAC;kilogram;technosphere;silicon, solar grade, modified Siemens process, at plant, APAC;SG-Silicon, at plant;;;
+market for transport, freight, lorry, unspecified;0.05;ei 3.8 cutoff;RER;ton kilometer;technosphere;transport, freight, lorry, fleet average, RER;transport, freight, lorry, unspecified;;;
+market group for transport, freight train;0.2;ei 3.8 cutoff;RER;ton kilometer;technosphere;transport, freight, rail, RER;transport, freight train;;;
+;;;;;;;;;;
+Activity;Si_prod_mix_CN;;;;;;;;;
+code;853d7ba790054ea0bc2f27b190aa00a1_copy1;;;;;;;;;
+comment;"Dataset is based on Table 8 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;CN;;;;;;;;;
+reference product;Silicon, production mix, photovoltaics, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilogram;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;type;comment;reference product;;;
+Si_prod_mix_CN;1;TandemPV;CN;kilogram;production;;Silicon, production mix, photovoltaics, at plant;;;
+SG_Si_APAC;0.162;TandemPV;APAC;kilogram;technosphere;silicon, solar grade, modified Siemens process, at plant, APAC;SG-Silicon, at plant;;;
+SG_Si_CN;0.61;TandemPV;CN;kilogram;technosphere;silicon, solar grade, modified Siemens process, at plant, CN;SG-Silicon, at plant;;;
+SG_Si_RER;0.135;TandemPV;RER;kilogram;technosphere;silicon, solar grade, modified Siemens process, at plant, RER;SG-Silicon, at plant;;;
+SG_Si_US;0.0928;TandemPV;US;kilogram;technosphere;silicon, solar grade, modified Siemens process, at plant, US;SG-Silicon, at plant;;;
+market for transport, freight, lorry, unspecified;0.05;ei 3.8 cutoff;RER;ton kilometer;technosphere;transport, freight, lorry, fleet average, RER;transport, freight, lorry, unspecified;;;
+market for transport, freight, sea, container ship;5.37;ei 3.8 cutoff;GLO;ton kilometer;technosphere;transoceanic freight ship, OCE;transport, freight, sea, container ship;;;
+market group for transport, freight train;0.2;ei 3.8 cutoff;RER;ton kilometer;technosphere;transport, freight, rail, RER;transport, freight train;;;
+;;;;;;;;;;
+Activity;Si_prod_mix_GLO;;;;;;;;;
+code;460678f57245404cb52574c03d3f6982_copy1;;;;;;;;;
+comment;"Dataset is based on Table 8 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;GLO;;;;;;;;;
+reference product;Silicon, production mix, photovoltaics, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilogram;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;type;comment;reference product;;;
+Si_prod_mix_GLO;1;TandemPV;GLO;kilogram;production;;Silicon, production mix, photovoltaics, at plant;;;
+SG_Si_RER;1;TandemPV;RER;kilogram;technosphere;silicon, solar grade, modified Siemens process, at plant, RER;SG-Silicon, at plant;;;
+market for transport, freight, lorry, unspecified;0.05;ei 3.8 cutoff;RER;ton kilometer;technosphere;transport, freight, lorry, fleet average, RER;transport, freight, lorry, unspecified;;;
+market group for transport, freight train;0.2;ei 3.8 cutoff;RER;ton kilometer;technosphere;transport, freight, rail, RER;transport, freight train;;;
+;;;;;;;;;;
+Activity;monofacial_tandem_electricity;;;;;;;;;
+code;8b420821ccbd4c59ac7ccbe98cb7ae9e_copy1;;;;;;;;;
+comment;"This dataset is modelled after Table 14.17 in (Jungbluth et al. 2012). Quantities of photovoltaic installation and water are parameterized to account for improvements in power density of the monofacial PSC-scSi tandem panel over time using scenarios. Furthermore, emissions of lead to the water and air compartment are included, which result from breakage (Sinha et al. 2019) in the field or from fire (Laukamp et al. 2013, Sinha et al. 2018). Lead is present in the metallization pastes used in producing the scSi cells (Jungbluth et al. 2012) and in the absorber layer of the PSC.
+
+- Jungbluth et al. 2012 Life Cycle Inventories of Photovoltaics - Version: 2012, https://esu-services.ch/fileadmin/download/publicLCI/jungbluth-2012-LCI-Photovoltaics.pdf [accessed  31-08-2022]
+- Laukamp, H., Bopp, G., Grab, R., Wittwer, C., Häberlin, H., van Heeckeren, B., Phillip, S., Reil, F., Schmidt, H., Sepanski, A., Thiem, H., & Vaassen, W. (2013). PV Fire Hazard - Analysis and Assessment of Fire Incidents. 28th European Photovoltaic Solar Energy Conference and Exhibition (EU PVSEC), Paris, France.
+- Sinha, P., Heath, G., Wade, A., & Komoto, K. (2018). Human Health Risk Assessment Methods for PV, Part 1: Fire risks [International Energy Agency (IEA) PVPS Task 12, Report T12-14:2018](ISBN 978-3-906042-78-7). https://iea-pvps.org/wp-content/uploads/2020/01/HHRA_Methods_for_PV_Part1_by_Task_12.pdf
+- Sinha, P., Heath, G., Wade, A., & Komoto, K. (2019). Human Health Risk Assessment Methods for PV, Part 2: Breakage Risks [International Energy Agency (IEA) PVPS Task 12, Report T12-15:2019](ISBN 978-3-906042-87-9). https://iea-pvps.org/wp-content/uploads/2020/01/Task_12-Human_Health_Risk_Assessment_Methods_for_PV_part_2.pdf";;;;;;;;;
+location;RER;;;;;;;;;
+reference product;electricity production, photovoltaic, 3kWp slanted-roof installation, 3kWp, monofacial PSC-scSi tandem panel, mounted;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilowatt hour;;;;;;;;;
+Parameters;monofacial_tandem_electricity_db814fd1e7baf18c7e7ab912ea349b8b;;;;;;;;;
+name;amount;formula;code;database;;;;;;
+monofacial_tandem_electricity_1;1;;8b420821ccbd4c59ac7ccbe98cb7ae9e_copy1;TandemPV;;;;;;
+;;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;formula;comment;original_amount;reference product
+Energy, solar, converted;3.85;biosphere3;;megajoule;natural resource::in air;biosphere;;Table 14.17 in (Jungbluth et al. 2012);;
+Heat, waste;0.25;biosphere3;;megajoule;air;biosphere;;Table 14.17 in (Jungbluth et al. 2012);;
+monofacial_tandem_electricity;1;TandemPV;RER;kilowatt hour;;production;;;;electricity production, photovoltaic, 3kWp slanted-roof installation, 3kWp, monofacial PSC-scSi tandem panel, mounted
+market for wastewater, from residence;0.002909091;ei 3.8 cutoff;RoW;cubic meter;;technosphere;water_MFT_per_kWh * kg_to_m3;Converted from kg to m3;0;wastewater, from residence
+market group for tap water;2.909090909;ei 3.8 cutoff;RER;kilogram;;technosphere;water_MFT_per_kWh;;0;tap water
+monofacial_tandem_installation;1.30757E-05;TandemPV;RER;unit;;technosphere;installation_per_kWh;;0;market for, photovoltaic slanted-roof installation, 3kWp, monofacial PSC-scSi panel, mounted, on roof
+;;;;;;;;;;
+Activity;monofacial_tandem_installation;;;;;;;;;
+code;48304cf110854de8b4124a9b2533d0d6_copy1;;;;;;;;;
+comment;"Dataset is modelled after Table 12.6 in (Jungbluth et al. 2012). Transport and emission of heat were excluded. The quantity of Silicon PV panel and mounting system were adjusted based on the present day power dentisty of Silicon PV. Both flows were parameterized to allow for analysis of future scenarios with increased power densities. 
+
+Avoided burdens from recycling of the Silicon PV panel is included in the dataset for its production (see activity ""scSi_panel_RER"" in database ""Panels""). Avoided burdens from end-of-life (EoL) waste treatment of the Balance-of-System (BoS) were included here, because these were not included in the orginal datasets from ecoinvent. Recycleable materials are sent for treatment, with the recycling chain starting at the cut-off point for the recyclable material (i.e. the ""Recycled content, cut-off"" dataset of the respective material) and includes all processing steps up to the point of producing a material that can provide a like-for-like replacement with a virgin material in the technosphere. For more information, see the description of the datasets in the ""EoL"" database. From recycling of corrugated board box, two recycled products can be obtained: linerboard and fluting medium. For simplicity, a 50:50 ratio between both products is assumed here. This can be considered reasonable, since corrugated board box contains liner board and fluting medium at a ratio ranging from 60:40 to 40:60 and because of its overall minor contribution to the impacts from a demand for 1 unit of the product. Avoided burden from incineration of waste materials are included.
+
+- Jungbluth et al. 2012 Life Cycle Inventories of Photovoltaics - Version: 2012, https://esu-services.ch/fileadmin/download/publicLCI/jungbluth-2012-LCI-Photovoltaics.pdf [accessed  31-08-2022]";;;;;;;;;
+location;RER;;;;;;;;;
+reference product;market for, photovoltaic slanted-roof installation, 3kWp, monofacial PSC-scSi panel, mounted, on roof;;;;;;;;;
+type;process;;;;;;;;;
+unit;unit;;;;;;;;;
+Parameters;monofacial_tandem_installation_9532dd33d683a06d00bbeed70d8a5bfe;;;;;;;;;
+name;amount;formula;code;database;;;;;;
+monofacial_tandem_installation_1;1;;48304cf110854de8b4124a9b2533d0d6_copy1;TandemPV;;;;;;
+;;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;type;formula;original_amount;reference product;;
+monofacial_tandem_installation;1;TandemPV;RER;unit;production;;;market for, photovoltaic slanted-roof installation, 3kWp, monofacial PSC-scSi panel, mounted, on roof;;
+inverter production, 2.5kW;2.4;ei 3.8 cutoff;RER;unit;technosphere;inverter_per_3kWp;0;inverter, 2.5kW;;
+market group for electricity, low voltage;1;ei 3.8 cutoff;ENTSO-E;kilowatt hour;technosphere;electricity_installation;0;electricity, low voltage;;
+monofacial_tandem_panel_DE;370.8;TandemPV;DE;square meter;technosphere;MFT_area_per_3kWp;0;Photovoltaic panel, perovskite-Si-tandem, at plant, incl. 1st generation recycling at EoL;;
+photovoltaic mounting system production, for slanted-roof installation;12;ei 3.8 cutoff;RER;square meter;technosphere;mounting_area_MFT;0;photovoltaic mounting system, for slanted-roof installation;;
+photovoltaics, electric installation for 3kWp module, at building;1;ei 3.8 cutoff;RoW;unit;technosphere;electrical_installation;1;photovoltaics, electric installation for 3kWp module, at building;;
+;;;;;;;;;;
+Activity;monofacial_tandem_panel_DE;;;;;;;;;
+code;f06fa1d3c529457485a26db952483abc_copy1;;;;;;;;;
+comment;"Dataset is based on Table 28 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+Avoided burdens of electricity and heat from incineration of wastes are included in this dataset, using yields in MJ/kg waste incinerated, which were obtained from the ecoinvent dataset for treatment of the respective waste streams through incineration in Switzerland. Waste to be incinerated are: mixed plastic waste and spent solvent mixture.
+
+First generation recycling of the monofacial PSC-scSi tandem panel is modelled as recycling of scSi panel, without additional flows from the PSC-layer in the tandem. This result in an underestimation of emissions and avoided burdens from first generation recycling. Second geenration recycling does take into account the processing of the PSC-layer. Switching between recycling options is done in scenario analysis using a scenario file in which the flow to either first or second generation recycling is set to 0. When assesing this dataset in isolation, i.e. without scenario file, one should manually set the value for the flow of either first or second generation recycling to 0. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;DE;;;;;;;;;
+reference product;Photovoltaic panel, perovskite-Si-tandem, at plant, incl. 1st generation recycling at EoL;;;;;;;;;
+type;process;;;;;;;;;
+unit;square meter;;;;;;;;;
+Parameters;monofacial_tandem_panel_DE_398dff4280ca95ba5381033755b41f0a;;;;;;;;;
+name;amount;formula;code;database;;;;;;
+monofacial_tandem_panel_DE_1;1;;f06fa1d3c529457485a26db952483abc_copy1;TandemPV;;;;;;
+;;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;formula;comment;original_amount;reference product
+Lead;0.0000116;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Lead;0.0000116;biosphere3;;kilogram;water;biosphere;;;;
+Water;0.0366;biosphere3;;cubic meter;air::urban air close to ground;biosphere;36.6*kg_to_m3;Conversion from kg to m3;0;
+Water, cooling, unspecified natural origin;0.731;biosphere3;;cubic meter;natural resource::in water;biosphere;;;;
+monofacial_tandem_panel_DE;1;TandemPV;DE;square meter;;production;;;;Photovoltaic panel, perovskite-Si-tandem, at plant, incl. 1st generation recycling at EoL
+1-propanol production;0.0159;ei 3.8 cutoff;RER;kilogram;;technosphere;;1-propanol, at plant, RER;;1-propanol
+aluminium alloy production, AlMg3;2.13;ei 3.8 cutoff;RER;kilogram;;technosphere;;aluminium alloy, AlMg3, at plant, RER;;aluminium alloy, AlMg3
+diphenylether-compound production;0.000371;ei 3.8 cutoff;RER;kilogram;;technosphere;;diphenylether-compounds, at regional storehouse, RER;;diphenylether-compound
+ethylvinylacetate production, foil;0.975;ei 3.8 cutoff;RER;kilogram;;technosphere;;ethylvinylacetate, foil, at plant, RER;;ethylvinylacetate, foil
+glass fibre reinforced plastic production, polyamide, injection moulded;0.295;ei 3.8 cutoff;RER;kilogram;;technosphere;;glass fibre reinforced plastic, polyamide, injection moulding, at plant, RER;;glass fibre reinforced plastic, polyamide, injection moulded
+indium production;0.0075;ei 3.8 cutoff;RER;kilogram;;technosphere;;indium, at regional storage, RER;;indium
+market for EUR-flat pallet;0.0313;ei 3.8 cutoff;RER;unit;;technosphere;;EUR-flat pallet, RER;;EUR-flat pallet
+market for chemical, organic;0.0000813;ei 3.8 cutoff;GLO;kilogram;;technosphere;;chemicals organic, at plant, GLO;;chemical, organic
+market for chemical, organic;0.0000382;ei 3.8 cutoff;GLO;kilogram;;technosphere;;chemicals organic, at plant, GLO;;chemical, organic
+market for copper, cathode;0.103;ei 3.8 cutoff;GLO;kilogram;;technosphere;;copper, at regional storage, RER;;copper, cathode
+market for corrugated board box;0.763;ei 3.8 cutoff;RER;kilogram;;technosphere;;corrugated board, mixed fibre, single wall, at plant, RER;;corrugated board box
+market for diode, auxilliaries and energy use;0.00281;ei 3.8 cutoff;GLO;kilogram;;technosphere;;diode, unspecified, at plant, GLO;;diode, auxilliaries and energy use
+market for electricity, medium voltage;23.4;ei 3.8 cutoff;DE;kilowatt hour;;technosphere;;electricity, medium voltage, at grid, DE;;electricity, medium voltage
+market for epoxy resin, liquid;0.0000927;ei 3.8 cutoff;RER;kilogram;;technosphere;;epoxy resin, liquid, at plant, RER;;epoxy resin, liquid
+market for ethylene bromide;0.000394;ei 3.8 cutoff;RER;kilogram;;technosphere;;ethylene bromide, at plant, RER;;ethylene bromide
+market for flat glass, uncoated;5.08;ei 3.8 cutoff;RER;kilogram;;technosphere;;flat glass, uncoated, at plant, RER;;flat glass, uncoated
+market for metallization paste, front side;0.00938;ei 3.8 cutoff;RER;kilogram;;technosphere;;metallization paste, front side, at plant, RER;;metallization paste, front side
+market for phenolic resin;0.0000927;ei 3.8 cutoff;RER;kilogram;;technosphere;;phenolic resin, at plant, RER;;phenolic resin
+market for photovoltaic panel factory;0.000004;ei 3.8 cutoff;GLO;unit;;technosphere;;photovoltaic panel factory, GLO;;photovoltaic panel factory
+market for silicone product;0.122;ei 3.8 cutoff;RER;kilogram;;technosphere;;silicone product, at plant, RER;;silicone product
+market for silver;0.00352;ei 3.8 cutoff;GLO;kilogram;;technosphere;;silver, at regional storage, RER;;silver
+market for solvent, organic;0.424;ei 3.8 cutoff;GLO;kilogram;;technosphere;;solvents, organic, unspecified, at plant, GLO;;solvent, organic
+market for solvent, organic;0.0394;ei 3.8 cutoff;GLO;kilogram;;technosphere;;solvents, organic, unspecified, at plant, GLO;;solvent, organic
+market for tin;0.0075;ei 3.8 cutoff;GLO;kilogram;;technosphere;;tin, at regional storage, RER;;tin
+market for tin;0.0129;ei 3.8 cutoff;GLO;kilogram;;technosphere;;tin, at regional storage, RER;;tin
+market for transport, freight, lorry, unspecified;4.61;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, lorry, fleet average, RER;;transport, freight, lorry, unspecified
+market for transport, freight, sea, container ship;61.4;ei 3.8 cutoff;GLO;ton kilometer;;technosphere;;transport, transoceanic freight ship, OCE;;transport, freight, sea, container ship
+methyl iodide production;0.000394;ei 3.8 cutoff;RER;kilogram;;technosphere;;methyl iodide, RER;;methyl iodide
+primary lead production from concentrate;0.00162;ei 3.8 cutoff;GLO;kilogram;;technosphere;;lead, at regional storage, RER;;lead
+primary lead production from concentrate;0.000725;ei 3.8 cutoff;GLO;kilogram;;technosphere;;lead, at regional storage, RER;;lead
+scSi_cell_CN;0.935;TandemPV;CN;square meter;;technosphere;;photovoltaic cell, single-Si, at plant, CN;;Silicon PV cell, single-Si, at plant
+solar glass production, low-iron;8.13;ei 3.8 cutoff;RER;kilogram;;technosphere;;solar glass, low-iron, at regional storage, RER;;solar glass, low-iron
+tempering, flat glass;8;ei 3.8 cutoff;RER;kilogram;;technosphere;;tempering, flat glass, RER;;tempering, flat glass
+wire drawing, copper;0.103;ei 3.8 cutoff;RER;kilogram;;technosphere;;wire drawing, copper, RER;;wire drawing, copper
+;;;;;;;;;;
+Activity;scSi_APAC;;;;;;;;;
+code;461f9297e28a4a41aefbf459b8e12b12_copy2;;;;;;;;;
+comment;"Dataset is based on Table 9 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;APAC;;;;;;;;;
+reference product;CZ single crystalline silicon, photovoltaics, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilogram;;;;;;;;;
+Parameters;scSi_APAC_4fcb4abe8dc42f8f10216e7063dd634d;;;;;;;;;
+name;amount;formula;code;database;;;;;;
+scSi_APAC_1;1;;461f9297e28a4a41aefbf459b8e12b12_copy2;TandemPV;;;;;;
+;;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;formula;comment;original_amount;reference product
+BOD5, Biological Oxygen Demand;0.13;biosphere3;;kilogram;water::surface water;biosphere;;;;
+COD, Chemical Oxygen Demand;0.13;biosphere3;;kilogram;water::surface water;biosphere;;;;
+DOC, Dissolved Organic Carbon;0.0405;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Heat, waste;115;biosphere3;;megajoule;air;biosphere;;;;
+Hydroxide;0.00442;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Nitrate;0.0835;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Nitrogen oxides;0.0339;biosphere3;;kilogram;air;biosphere;;;;
+TOC, Total Organic Carbon;0.0405;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Water;0.255;biosphere3;;cubic meter;air;biosphere;255 * kg_to_m3;Converted from kg to m3;0;
+Water, cooling, unspecified natural origin;5.09;biosphere3;;cubic meter;natural resource::in water;biosphere;;Water, cooling, unspecified natural origin, KR;;
+scSi_APAC;1;TandemPV;APAC;kilogram;;production;;;;CZ single crystalline silicon, photovoltaics, at plant
+Si_prod_mix_APAC;1;TandemPV;APAC;kilogram;;technosphere;;silicon, production mix, photovoltaics, at plant, APAC;;Silicon, production mix, photovoltaics, at plant
+ceramic tile production;0.167;ei 3.8 cutoff;CH;kilogram;;technosphere;;ceramic tiles, at regional storage, CH;;ceramic tile
+heat production, natural gas, at industrial furnace low-NOx >100kW;68.2;ei 3.8 cutoff;Europe without Switzerland;megajoule;;technosphere;;natural gas, burned in industrial furnace low-NOx >100kW, RER;;heat, district or industrial, natural gas
+lime production, hydrated, packed;0.0222;ei 3.8 cutoff;CH;kilogram;;technosphere;;lime, hydrated, packed, at plant, CH;;lime, hydrated, packed
+market for argon, liquid;1;ei 3.8 cutoff;RER;kilogram;;technosphere;;argon, liquid, at plant, RER;;argon, liquid
+market for electricity, medium voltage;32;ei 3.8 cutoff;KR;kilowatt hour;;technosphere;;electricity, medium voltage, at grid, KR;;electricity, medium voltage
+market for hydrogen fluoride;0.01;ei 3.8 cutoff;RER;kilogram;;technosphere;;hydrogen fluoride, at plant, GLO;;hydrogen fluoride
+market for nitric acid, without water, in 50% solution state;0.0668;ei 3.8 cutoff;RER w/o RU;kilogram;;technosphere;;nitric acid, 50% in H2O, at plant, RER;;nitric acid, without water, in 50% solution state
+market for sodium hydroxide, without water, in 50% solution state;0.0415;ei 3.8 cutoff;GLO;kilogram;;technosphere;;sodium hydroxide, 50% in H2O, production mix, at plant, RER;;sodium hydroxide, without water, in 50% solution state
+market for transport, freight, lorry, unspecified;1.13;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, lorry, fleet average, RER;;transport, freight, lorry, unspecified
+market for water, deionised;4.01;ei 3.8 cutoff;RoW;kilogram;;technosphere;;water, deionised, water balance according to MoeK 2013, at plant, KR;;water, deionised
+market group for transport, freight train;1.41;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, rail, RER;;transport, freight train
+silicone factory construction;1E-11;ei 3.8 cutoff;RER;unit;;technosphere;;silicone plant, RER;;silicone factory
+treatment of waste, from silicon wafer production, inorganic, residual material landfill;-0.167;ei 3.8 cutoff;CH;kilogram;;technosphere;;disposal, waste, Si waferprod., inorg, 9.4% water, to residual material landfill, CH;;waste, from silicon wafer production, inorganic
+treatment of wastewater, average, capacity 1.1E10l/year;-4.84;ei 3.8 cutoff;CH;cubic meter;;technosphere;;treatment, sewage, to wastewater treatment, class 2, CH;;wastewater, average
+;;;;;;;;;;
+Activity;scSi_CN;;;;;;;;;
+code;461f9297e28a4a41aefbf459b8e12b12_copy3;;;;;;;;;
+comment;"Dataset is based on Table 9 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;CN;;;;;;;;;
+reference product;CZ single crystalline silicon, photovoltaics, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilogram;;;;;;;;;
+Parameters;scSi_CN_6c9a8c1661d605f45367d8bf1e68de85;;;;;;;;;
+name;amount;formula;code;database;;;;;;
+scSi_CN_1;1;;461f9297e28a4a41aefbf459b8e12b12_copy3;TandemPV;;;;;;
+;;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;formula;comment;original_amount;reference product
+BOD5, Biological Oxygen Demand;0.13;biosphere3;;kilogram;water::surface water;biosphere;;;;
+COD, Chemical Oxygen Demand;0.13;biosphere3;;kilogram;water::surface water;biosphere;;;;
+DOC, Dissolved Organic Carbon;0.0405;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Heat, waste;115;biosphere3;;megajoule;air;biosphere;;;;
+Hydroxide;0.00442;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Nitrate;0.0835;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Nitrogen oxides;0.0339;biosphere3;;kilogram;air;biosphere;;;;
+TOC, Total Organic Carbon;0.0405;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Water;0.255;biosphere3;;cubic meter;air;biosphere;255 * kg_to_m3;Converted from kg to m3;0.255;
+Water, cooling, unspecified natural origin;5.09;biosphere3;;cubic meter;natural resource::in water;biosphere;;Water, cooling, unspecified natural origin, CN;;
+scSi_CN;1;TandemPV;CN;kilogram;;production;;;;CZ single crystalline silicon, photovoltaics, at plant
+Si_prod_mix_CN;1;TandemPV;CN;kilogram;;technosphere;;silicon, production mix, photovoltaics, at plant, CN;;Silicon, production mix, photovoltaics, at plant
+ceramic tile production;0.167;ei 3.8 cutoff;CH;kilogram;;technosphere;;ceramic tiles, at regional storage, CH;;ceramic tile
+heat production, natural gas, at industrial furnace low-NOx >100kW;68.2;ei 3.8 cutoff;Europe without Switzerland;megajoule;;technosphere;;natural gas, burned in industrial furnace low-NOx >100kW, RER;;heat, district or industrial, natural gas
+lime production, hydrated, packed;0.0222;ei 3.8 cutoff;CH;kilogram;;technosphere;;lime, hydrated, packed, at plant, CH;;lime, hydrated, packed
+market for argon, liquid;1;ei 3.8 cutoff;RER;kilogram;;technosphere;;argon, liquid, at plant, RER;;argon, liquid
+market for hydrogen fluoride;0.01;ei 3.8 cutoff;RER;kilogram;;technosphere;;hydrogen fluoride, at plant, GLO;;hydrogen fluoride
+market for nitric acid, without water, in 50% solution state;0.0668;ei 3.8 cutoff;RER w/o RU;kilogram;;technosphere;;nitric acid, 50% in H2O, at plant, RER;;nitric acid, without water, in 50% solution state
+market for sodium hydroxide, without water, in 50% solution state;0.0415;ei 3.8 cutoff;GLO;kilogram;;technosphere;;sodium hydroxide, 50% in H2O, production mix, at plant, RER;;sodium hydroxide, without water, in 50% solution state
+market for transport, freight, lorry, unspecified;1.13;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, lorry, fleet average, RER;;transport, freight, lorry, unspecified
+market for water, deionised;4.01;ei 3.8 cutoff;RoW;kilogram;;technosphere;;water, deionised, water balance according to MoeK 2013, at plant, CN;;water, deionised
+market group for electricity, medium voltage;32;ei 3.8 cutoff;CN;kilowatt hour;;technosphere;;electricity, medium voltage, at grid, CN;;electricity, medium voltage
+market group for transport, freight train;1.41;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, rail, RER;;transport, freight train
+silicone factory construction;1E-11;ei 3.8 cutoff;RER;unit;;technosphere;;silicone plant, RER;;silicone factory
+treatment of waste, from silicon wafer production, inorganic, residual material landfill;-0.167;ei 3.8 cutoff;CH;kilogram;;technosphere;;disposal, waste, Si waferprod., inorg, 9.4% water, to residual material landfill, CH;;waste, from silicon wafer production, inorganic
+treatment of wastewater, average, capacity 1.1E10l/year;-4.84;ei 3.8 cutoff;CH;cubic meter;;technosphere;;treatment, sewage, to wastewater treatment, class 2, CH;;wastewater, average
+;;;;;;;;;;
+Activity;scSi_RER;;;;;;;;;
+code;461f9297e28a4a41aefbf459b8e12b12_copy1;;;;;;;;;
+comment;"Dataset is based on Table 9 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;RER;;;;;;;;;
+reference product;CZ single crystalline silicon, photovoltaics, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;kilogram;;;;;;;;;
+Parameters;scSi_RER_9cd5d1a3898f1f85db5134de648f1563;;;;;;;;;
+name;amount;formula;code;database;;;;;;
+scSi_RER_1;1;;461f9297e28a4a41aefbf459b8e12b12_copy1;TandemPV;;;;;;
+;;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;formula;comment;original_amount;reference product
+BOD5, Biological Oxygen Demand;0.13;biosphere3;;kilogram;water::surface water;biosphere;;;;
+COD, Chemical Oxygen Demand;0.13;biosphere3;;kilogram;water::surface water;biosphere;;;;
+DOC, Dissolved Organic Carbon;0.0405;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Heat, waste;115;biosphere3;;megajoule;air;biosphere;;;;
+Hydroxide;0.00442;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Nitrate;0.0835;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Nitrogen oxides;0.0339;biosphere3;;kilogram;air;biosphere;;;;
+TOC, Total Organic Carbon;0.0405;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Water;0.255;biosphere3;;cubic meter;air;biosphere;255 * kg_to_m3;Converted from kg to m3;0;
+Water, cooling, unspecified natural origin;5.09;biosphere3;;cubic meter;natural resource::in water;biosphere;;Water, cooling, unspecified natural origin, RER;;
+scSi_RER;1;TandemPV;RER;kilogram;;production;;;;CZ single crystalline silicon, photovoltaics, at plant
+Si_prod_mix_GLO;1;TandemPV;GLO;kilogram;;technosphere;;silicon, production mix, photovoltaics, at plant, GLO;;Silicon, production mix, photovoltaics, at plant
+ceramic tile production;0.167;ei 3.8 cutoff;CH;kilogram;;technosphere;;ceramic tiles, at regional storage, CH;;ceramic tile
+heat production, natural gas, at industrial furnace low-NOx >100kW;68.2;ei 3.8 cutoff;Europe without Switzerland;megajoule;;technosphere;;natural gas, burned in industrial furnace low-NOx >100kW, RER;;heat, district or industrial, natural gas
+lime production, hydrated, packed;0.0222;ei 3.8 cutoff;CH;kilogram;;technosphere;;lime, hydrated, packed, at plant, CH;;lime, hydrated, packed
+market for argon, liquid;1;ei 3.8 cutoff;RER;kilogram;;technosphere;;argon, liquid, at plant, RER;;argon, liquid
+market for hydrogen fluoride;0.01;ei 3.8 cutoff;RER;kilogram;;technosphere;;hydrogen fluoride, at plant, GLO;;hydrogen fluoride
+market for nitric acid, without water, in 50% solution state;0.0668;ei 3.8 cutoff;RER w/o RU;kilogram;;technosphere;;nitric acid, 50% in H2O, at plant, RER;;nitric acid, without water, in 50% solution state
+market for sodium hydroxide, without water, in 50% solution state;0.0415;ei 3.8 cutoff;GLO;kilogram;;technosphere;;sodium hydroxide, 50% in H2O, production mix, at plant, RER;;sodium hydroxide, without water, in 50% solution state
+market for transport, freight, lorry, unspecified;1.13;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, lorry, fleet average, RER;;transport, freight, lorry, unspecified
+market for water, deionised;4.01;ei 3.8 cutoff;Europe without Switzerland;kilogram;;technosphere;;water, deionised, water balance according to MoeK 2013, at plant, RER;;water, deionised
+market group for electricity, medium voltage;32;ei 3.8 cutoff;ENTSO-E;kilowatt hour;;technosphere;;electricity, medium voltage, production ENTSO, at grid, ENTSO;;electricity, medium voltage
+market group for transport, freight train;1.41;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, rail, RER;;transport, freight train
+silicone factory construction;1E-11;ei 3.8 cutoff;RER;unit;;technosphere;;silicone plant, RER;;silicone factory
+treatment of waste, from silicon wafer production, inorganic, residual material landfill;-0.167;ei 3.8 cutoff;CH;kilogram;;technosphere;;disposal, waste, Si waferprod., inorg, 9.4% water, to residual material landfill, CH;;waste, from silicon wafer production, inorganic
+treatment of wastewater, average, capacity 1.1E10l/year;-4.84;ei 3.8 cutoff;CH;cubic meter;;technosphere;;treatment, sewage, to wastewater treatment, class 2, CH;;wastewater, average
+;;;;;;;;;;
+Activity;scSi_cell_APAC;;;;;;;;;
+code;261c0e628e7b4ae3abb8dcb54039ac3d_copy2;;;;;;;;;
+comment;"Dataset is based on Table 17 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+Avoided burdens of electricity and heat from incineration of waste solvent are included in this dataset, using yields in MJ/kg solvent incinerated, which were obtained from the ecoinvent dataset for treatment of spent solvent mixture through hazardous waste incineration in Switzerland.
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;APAC;;;;;;;;;
+reference product;Silicon PV cell, single-Si, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;square meter;;;;;;;;;
+Parameters;scSi_cell_APAC_e05e8cf536d4dfd0262bc48e6dd47ce3;;;;;;;;;
+name;amount;formula;code;database;;;;;;
+scSi_cell_APAC_1;1;;261c0e628e7b4ae3abb8dcb54039ac3d_copy2;TandemPV;;;;;;
+;;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;formula;comment;original_amount;reference product
+2-Propanol;0.0147;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Acetaldehyde;0.000633;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Aluminium;0.00000773;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Ammonia;0.0000373;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Carbon dioxide, fossil;0.167;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Chlorine;0.000046;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Ethane, 1,1,1,2-tetrafluoro-, HFC-134a;0.0000312;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Heat, waste;51.8;biosphere3;;megajoule;air::urban air close to ground;biosphere;;;;
+Hydrogen;0.011;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Hydrogen fluoride;0.000138;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Lead;0.00000773;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+NMVOC, non-methane volatile organic compounds, unspecified origin;0.0126;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Silicon;3.17E-08;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Silicon;0.000333;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Silicon;0.00263;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Silver;0.00000773;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Tin;0.00000773;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Water;0.0171;biosphere3;;cubic meter;air::urban air close to ground;biosphere;17.1 * kg_to_m3;Converted from kg to m3;0;
+scSi_cell_APAC;1;TandemPV;APAC;square meter;;production;;;;Silicon PV cell, single-Si, at plant
+heat production, natural gas, at industrial furnace low-NOx >100kW;0.0608;ei 3.8 cutoff;Europe without Switzerland;megajoule;;technosphere;;natural gas, burned in industrial furnace low-NOx >100kW, RER;;heat, district or industrial, natural gas
+lime production, hydrated, packed;0.0151;ei 3.8 cutoff;CH;kilogram;;technosphere;;lime, hydrated, packed, at plant, CH;;lime, hydrated, packed
+market for ammonia, anhydrous, liquid;0.0219;ei 3.8 cutoff;RER;kilogram;;technosphere;;ammonia, liquid, at regional storehouse, RER;;ammonia, anhydrous, liquid
+market for electricity, medium voltage;17.7;ei 3.8 cutoff;KR;kilowatt hour;;technosphere;;electricity, medium voltage, at grid, KR;;electricity, medium voltage
+market for hydrochloric acid, without water, in 30% solution state;0.000629;ei 3.8 cutoff;RER;kilogram;;technosphere;;hydrochloric acid, 30% in H2O, at plant, RER;;hydrochloric acid, without water, in 30% solution state
+market for hydrogen fluoride;0.000645;ei 3.8 cutoff;RER;kilogram;;technosphere;;hydrogen fluoride, at plant, GLO;;hydrogen fluoride
+market for isopropanol;0.177;ei 3.8 cutoff;RER;kilogram;;technosphere;;isopropanol, at plant, RER;;isopropanol
+market for metallization paste, back side;0.00111;ei 3.8 cutoff;RER;kilogram;;technosphere;;metallization paste, back side, at plant, RER;;metallization paste, back side
+market for metallization paste, back side, aluminium;0.0554;ei 3.8 cutoff;RER;kilogram;;technosphere;;metallization paste, back side, aluminium, at plant, RER;;metallization paste, back side, aluminium
+market for metallization paste, front side;0.00337;ei 3.8 cutoff;RER;kilogram;;technosphere;;metallization paste, front side, at plant, RER;;metallization paste, front side
+market for nitrogen, liquid;1.15;ei 3.8 cutoff;RER;kilogram;;technosphere;;nitrogen, liquid, at plant, RER;;nitrogen, liquid
+market for phosphorus oxychloride;0.0133;ei 3.8 cutoff;RER;kilogram;;technosphere;;phosphoryl chloride, at plant, RER;;phosphorus oxychloride
+market for silicon tetrahydride;0.00291;ei 3.8 cutoff;GLO;kilogram;;technosphere;;silane, at plant, RER;;silicon tetrahydride
+market for sodium hydroxide, without water, in 50% solution state;0.604;ei 3.8 cutoff;GLO;kilogram;;technosphere;;sodium hydroxide, 50% in H2O, production mix, at plant, RER;;sodium hydroxide, without water, in 50% solution state
+market for tap water;171;ei 3.8 cutoff;RoW;kilogram;;technosphere;;tap water, water balance according to MoeK 2013, at user, KR;;tap water
+market for transport, freight, lorry, unspecified;0.274;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, lorry, fleet average, RER;;transport, freight, lorry, unspecified
+market group for transport, freight train;1.52;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, rail, RER;;transport, freight train
+photovoltaic cell factory construction;0.0000004;ei 3.8 cutoff;DE;unit;;technosphere;;photovoltaic cell factory, DE;;photovoltaic cell factory
+refrigerant R134a production;0.0000312;ei 3.8 cutoff;RER;kilogram;;technosphere;;refrigerant R134a, at plant, RER;;refrigerant R134a
+scSi_wafer_mix_APAC;1.03;TandemPV;APAC;square meter;;technosphere;;single-Si wafer, photovoltaics, at regional storage, APAC;;Single-Si wafer, photovoltaic
+treatment of spent solvent mixture, hazardous waste incineration;-0.172;ei 3.8 cutoff;CH;kilogram;;technosphere;;disposal, solvents mixture, 16.5% water, to hazardous waste incineration, CH;;spent solvent mixture
+treatment of waste, from silicon wafer production, inorganic, residual material landfill;-2.33;ei 3.8 cutoff;CH;kilogram;;technosphere;;disposal, waste, Si waferprod., inorg, 9.4% water, to residual material landfill, CH;;waste, from silicon wafer production, inorganic
+treatment of wastewater from wafer fabrication, capacity 1.1E10l/year;-0.154;ei 3.8 cutoff;CH;cubic meter;;technosphere;;treatment, PV cell production effluent, to wastewater treatment, class 3, CH;;wastewater from wafer fabrication
+;;;;;;;;;;
+Activity;scSi_cell_CN;;;;;;;;;
+code;261c0e628e7b4ae3abb8dcb54039ac3d_copy1;;;;;;;;;
+comment;"Dataset is based on Table 16 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+Avoided burdens of electricity and heat from incineration of waste solvent are included in this dataset, using yields in MJ/kg solvent incinerated, which were obtained from the ecoinvent dataset for treatment of spent solvent mixture through hazardous waste incineration in Switzerland.
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;CN;;;;;;;;;
+reference product;Silicon PV cell, single-Si, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;square meter;;;;;;;;;
+Parameters;scSi_cell_CN_ec79be31d2e32973fb5c3e08e8437686;;;;;;;;;
+name;amount;formula;code;database;;;;;;
+scSi_cell_CN_1;1;;261c0e628e7b4ae3abb8dcb54039ac3d_copy1;TandemPV;;;;;;
+;;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;formula;comment;original_amount;reference product
+2-Propanol;0.0147;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Acetaldehyde;0.000633;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Aluminium;0.00000773;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Ammonia;0.0000373;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Carbon dioxide, fossil;0.167;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Chlorine;0.000046;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Ethane, 1,1,1,2-tetrafluoro-, HFC-134a;0.0000312;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Heat, waste;51.8;biosphere3;;megajoule;air::urban air close to ground;biosphere;;;;
+Hydrogen;0.011;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Hydrogen fluoride;0.000138;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Lead;0.00000773;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+NMVOC, non-methane volatile organic compounds, unspecified origin;0.0126;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Silicon;3.17E-08;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Silicon;0.000333;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Silicon;0.00263;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Silver;0.00000773;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Tin;0.00000773;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Water;0.0171;biosphere3;;cubic meter;air::urban air close to ground;biosphere;17.1 * kg_to_m3;Converted from kg to m3;0;
+scSi_cell_CN;1;TandemPV;CN;square meter;;production;;;;Silicon PV cell, single-Si, at plant
+heat production, natural gas, at industrial furnace low-NOx >100kW;0.0608;ei 3.8 cutoff;Europe without Switzerland;megajoule;;technosphere;;natural gas, burned in industrial furnace low-NOx >100kW, RER;;heat, district or industrial, natural gas
+lime production, hydrated, packed;0.0151;ei 3.8 cutoff;CH;kilogram;;technosphere;;lime, hydrated, packed, at plant, CH;;lime, hydrated, packed
+market for ammonia, anhydrous, liquid;0.0219;ei 3.8 cutoff;RER;kilogram;;technosphere;;ammonia, liquid, at regional storehouse, RER;;ammonia, anhydrous, liquid
+market for hydrochloric acid, without water, in 30% solution state;0.000629;ei 3.8 cutoff;RER;kilogram;;technosphere;;hydrochloric acid, 30% in H2O, at plant, RER;;hydrochloric acid, without water, in 30% solution state
+market for hydrogen fluoride;0.000645;ei 3.8 cutoff;RER;kilogram;;technosphere;;hydrogen fluoride, at plant, GLO;;hydrogen fluoride
+market for isopropanol;0.177;ei 3.8 cutoff;RER;kilogram;;technosphere;;isopropanol, at plant, RER;;isopropanol
+market for metallization paste, back side;0.00111;ei 3.8 cutoff;RER;kilogram;;technosphere;;metallization paste, back side, at plant, RER;;metallization paste, back side
+market for metallization paste, back side, aluminium;0.0554;ei 3.8 cutoff;RER;kilogram;;technosphere;;metallization paste, back side, aluminium, at plant, RER;;metallization paste, back side, aluminium
+market for metallization paste, front side;0.00337;ei 3.8 cutoff;RER;kilogram;;technosphere;;metallization paste, front side, at plant, RER;;metallization paste, front side
+market for nitrogen, liquid;1.15;ei 3.8 cutoff;RER;kilogram;;technosphere;;nitrogen, liquid, at plant, RER;;nitrogen, liquid
+market for phosphorus oxychloride;0.0133;ei 3.8 cutoff;RER;kilogram;;technosphere;;phosphoryl chloride, at plant, RER;;phosphorus oxychloride
+market for silicon tetrahydride;0.00291;ei 3.8 cutoff;GLO;kilogram;;technosphere;;silane, at plant, RER;;silicon tetrahydride
+market for sodium hydroxide, without water, in 50% solution state;0.604;ei 3.8 cutoff;GLO;kilogram;;technosphere;;sodium hydroxide, 50% in H2O, production mix, at plant, RER;;sodium hydroxide, without water, in 50% solution state
+market for tap water;171;ei 3.8 cutoff;RoW;kilogram;;technosphere;;tap water, water balance according to MoeK 2013, at user, CN;;tap water
+market for transport, freight, lorry, unspecified;0.274;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, lorry, fleet average, RER;;transport, freight, lorry, unspecified
+market group for electricity, medium voltage;17.7;ei 3.8 cutoff;CN;kilowatt hour;;technosphere;;electricity, medium voltage, at grid, CN;;electricity, medium voltage
+market group for transport, freight train;1.52;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, rail, RER;;transport, freight train
+photovoltaic cell factory construction;0.0000004;ei 3.8 cutoff;DE;unit;;technosphere;;photovoltaic cell factory, DE;;photovoltaic cell factory
+refrigerant R134a production;0.0000312;ei 3.8 cutoff;RER;kilogram;;technosphere;;refrigerant R134a, at plant, RER;;refrigerant R134a
+scSi_wafer_CN;1.03;TandemPV;CN;square meter;;technosphere;;single-Si wafer, photovoltaics, at regional storage, CN;;Single-Si wafer, photovoltaic, at plant 
+treatment of spent solvent mixture, hazardous waste incineration;-0.172;ei 3.8 cutoff;CH;kilogram;;technosphere;;disposal, solvents mixture, 16.5% water, to hazardous waste incineration, CH;;spent solvent mixture
+treatment of waste, from silicon wafer production, inorganic, residual material landfill;-2.33;ei 3.8 cutoff;CH;kilogram;;technosphere;;disposal, waste, Si waferprod., inorg, 9.4% water, to residual material landfill, CH;;waste, from silicon wafer production, inorganic
+treatment of wastewater from wafer fabrication, capacity 1.1E10l/year;-0.154;ei 3.8 cutoff;CH;cubic meter;;technosphere;;treatment, PV cell production effluent, to wastewater treatment, class 3, CH;;wastewater from wafer fabrication
+;;;;;;;;;;
+Activity;scSi_cell_RER;;;;;;;;;
+code;261c0e628e7b4ae3abb8dcb54039ac3d_copy3;;;;;;;;;
+comment;"Dataset is based on Table 17 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+Avoided burdens of electricity and heat from incineration of waste solvent are included in this dataset, using yields in MJ/kg solvent incinerated, which were obtained from the ecoinvent dataset for treatment of spent solvent mixture through hazardous waste incineration in Switzerland.
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;RER;;;;;;;;;
+reference product;Silicon PV cell, single-Si, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;square meter;;;;;;;;;
+Parameters;scSi_cell_RER_8cf747ea3a06baa6815b28d9bf40f764;;;;;;;;;
+name;amount;formula;code;database;;;;;;
+scSi_cell_RER_1;1;;261c0e628e7b4ae3abb8dcb54039ac3d_copy3;TandemPV;;;;;;
+;;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;formula;comment;original_amount;reference product
+2-Propanol;0.0147;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Acetaldehyde;0.000633;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Aluminium;0.00000773;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Ammonia;0.0000373;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Carbon dioxide, fossil;0.167;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Chlorine;0.000046;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Ethane, 1,1,1,2-tetrafluoro-, HFC-134a;0.0000312;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Heat, waste;51.8;biosphere3;;megajoule;air::urban air close to ground;biosphere;;;;
+Hydrogen;0.011;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Hydrogen fluoride;0.000138;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Lead;0.00000773;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+NMVOC, non-methane volatile organic compounds, unspecified origin;0.0126;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Silicon;3.17E-08;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Silicon;0.000333;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Silicon;0.00263;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Silver;0.00000773;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Tin;0.00000773;biosphere3;;kilogram;air::urban air close to ground;biosphere;;;;
+Water;0.0171;biosphere3;;cubic meter;air::urban air close to ground;biosphere;17.1 *kg_to_m3;Converted from kg to m3;0;
+scSi_cell_RER;1;TandemPV;RER;square meter;;production;;;;Silicon PV cell, single-Si, at plant
+heat production, natural gas, at industrial furnace low-NOx >100kW;0.0608;ei 3.8 cutoff;Europe without Switzerland;megajoule;;technosphere;;natural gas, burned in industrial furnace low-NOx >100kW, RER;;heat, district or industrial, natural gas
+lime production, hydrated, packed;0.0151;ei 3.8 cutoff;CH;kilogram;;technosphere;;lime, hydrated, packed, at plant, CH;;lime, hydrated, packed
+market for ammonia, anhydrous, liquid;0.0219;ei 3.8 cutoff;RER;kilogram;;technosphere;;ammonia, liquid, at regional storehouse, RER;;ammonia, anhydrous, liquid
+market for hydrochloric acid, without water, in 30% solution state;0.000629;ei 3.8 cutoff;RER;kilogram;;technosphere;;hydrochloric acid, 30% in H2O, at plant, RER;;hydrochloric acid, without water, in 30% solution state
+market for hydrogen fluoride;0.000645;ei 3.8 cutoff;RER;kilogram;;technosphere;;hydrogen fluoride, at plant, GLO;;hydrogen fluoride
+market for isopropanol;0.177;ei 3.8 cutoff;RER;kilogram;;technosphere;;isopropanol, at plant, RER;;isopropanol
+market for metallization paste, back side;0.00111;ei 3.8 cutoff;RER;kilogram;;technosphere;;metallization paste, back side, at plant, RER;;metallization paste, back side
+market for metallization paste, back side, aluminium;0.0554;ei 3.8 cutoff;RER;kilogram;;technosphere;;metallization paste, back side, aluminium, at plant, RER;;metallization paste, back side, aluminium
+market for metallization paste, front side;0.00337;ei 3.8 cutoff;RER;kilogram;;technosphere;;metallization paste, front side, at plant, RER;;metallization paste, front side
+market for nitrogen, liquid;1.15;ei 3.8 cutoff;RER;kilogram;;technosphere;;nitrogen, liquid, at plant, RER;;nitrogen, liquid
+market for phosphorus oxychloride;0.0133;ei 3.8 cutoff;RER;kilogram;;technosphere;;phosphoryl chloride, at plant, RER;;phosphorus oxychloride
+market for silicon tetrahydride;0.00291;ei 3.8 cutoff;GLO;kilogram;;technosphere;;silane, at plant, RER;;silicon tetrahydride
+market for sodium hydroxide, without water, in 50% solution state;0.604;ei 3.8 cutoff;GLO;kilogram;;technosphere;;sodium hydroxide, 50% in H2O, production mix, at plant, RER;;sodium hydroxide, without water, in 50% solution state
+market for transport, freight, lorry, unspecified;0.274;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, lorry, fleet average, RER;;transport, freight, lorry, unspecified
+market group for electricity, medium voltage;17.7;ei 3.8 cutoff;ENTSO-E;kilowatt hour;;technosphere;;electricity, medium voltage, production ENTSO, at grid, ENTSO;;electricity, medium voltage
+market group for tap water;171;ei 3.8 cutoff;RER;kilogram;;technosphere;;tap water, water balance according to MoeK 2013, at user, RER;;tap water
+market group for transport, freight train;1.52;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, rail, RER;;transport, freight train
+photovoltaic cell factory construction;0.0000004;ei 3.8 cutoff;DE;unit;;technosphere;;photovoltaic cell factory, DE;;photovoltaic cell factory
+refrigerant R134a production;0.0000312;ei 3.8 cutoff;RER;kilogram;;technosphere;;refrigerant R134a, at plant, RER;;refrigerant R134a
+scSi_wafer_mix_RER;1.03;TandemPV;RER;square meter;;technosphere;;single-Si wafer, photovoltaics, at regional storage, RER;;Single-Si wafer, photovoltaic
+treatment of spent solvent mixture, hazardous waste incineration;-0.172;ei 3.8 cutoff;CH;kilogram;;technosphere;;disposal, solvents mixture, 16.5% water, to hazardous waste incineration, CH;;spent solvent mixture
+treatment of waste, from silicon wafer production, inorganic, residual material landfill;-2.33;ei 3.8 cutoff;CH;kilogram;;technosphere;;disposal, waste, Si waferprod., inorg, 9.4% water, to residual material landfill, CH;;waste, from silicon wafer production, inorganic
+treatment of wastewater from wafer fabrication, capacity 1.1E10l/year;-0.154;ei 3.8 cutoff;CH;cubic meter;;technosphere;;treatment, PV cell production effluent, to wastewater treatment, class 3, CH;;wastewater from wafer fabrication
+;;;;;;;;;;
+Activity;scSi_cell_mix_RER;;;;;;;;;
+code;0f3d1d70d35a4c30b455e1643d663007_copy1;;;;;;;;;
+comment;"Dataset is based on Table 18 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;RER;;;;;;;;;
+reference product;Silicon PV cell, single-Si, at plant;;;;;;;;;
+type;process;;;;;;;;;
+unit;square meter;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;type;comment;reference product;;;
+scSi_cell_mix_RER;1;TandemPV;RER;square meter;production;;Silicon PV cell, single-Si, at plant;;;
+market for transport, freight, lorry, unspecified;0.0249;ei 3.8 cutoff;RER;ton kilometer;technosphere;transport, freight, lorry, fleet average, RER;transport, freight, lorry, unspecified;;;
+market for transport, freight, sea, container ship;6.27;ei 3.8 cutoff;GLO;ton kilometer;technosphere;transport, transoceanic freight ship, OCE;transport, freight, sea, container ship;;;
+market group for transport, freight train;0.0995;ei 3.8 cutoff;RER;ton kilometer;technosphere;transport, freight, rail, RER;transport, freight train;;;
+scSi_cell_APAC;0.839;TandemPV;APAC;square meter;technosphere;photovoltaic cell, single-Si, at plant, APAC;Silicon PV cell, single-Si, at plant;;;
+scSi_cell_RER;0.161;TandemPV;RER;square meter;technosphere;photovoltaic cell, single-Si, at plant, RER;Silicon PV cell, single-Si, at plant;;;
+;;;;;;;;;;
+Activity;scSi_wafer_APAC;;;;;;;;;
+code;feb0bc35aa2346be8a8ee65bb0ff3f9b_copy2;;;;;;;;;
+comment;"Dataset is based on Table 12 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;APAC;;;;;;;;;
+reference product;Single-Si wafer, photovoltaic, at plant ;;;;;;;;;
+type;process;;;;;;;;;
+unit;square meter;;;;;;;;;
+Parameters;scSi_wafer_APAC_8ab77e959bea91ae2f0977e691998d52;;;;;;;;;
+name;amount;formula;code;database;;;;;;
+scSi_wafer_APAC_1;1;;feb0bc35aa2346be8a8ee65bb0ff3f9b_copy2;TandemPV;;;;;;
+;;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;formula;comment;original_amount;reference product
+BOD5, Biological Oxygen Demand;0.0295;biosphere3;;kilogram;water::surface water;biosphere;;;;
+COD, Chemical Oxygen Demand;0.0295;biosphere3;;kilogram;water::surface water;biosphere;;;;
+COD, Chemical Oxygen Demand;0.0111;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Heat, waste;17.1;biosphere3;;megajoule;air;biosphere;;;;
+TOC, Total Organic Carbon;0.0111;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Water;0.00556;biosphere3;;cubic meter;air;biosphere;5.56 * kg_to_m3;Converted from kg to m3;0;
+scSi_wafer_APAC;1;TandemPV;APAC;square meter;;production;;;;Single-Si wafer, photovoltaic, at plant 
+alkylbenzene sulfonate production, linear, petrochemical;0.24;ei 3.8 cutoff;RER;kilogram;;technosphere;;alkylbenzene sulfonate, linear, petrochemical, at plant, RER;;alkylbenzene sulfonate, linear, petrochemical
+heat production, natural gas, at industrial furnace low-NOx >100kW;4;ei 3.8 cutoff;Europe without Switzerland;megajoule;;technosphere;;natural gas, burned in industrial furnace low-NOx >100kW, RER;;heat, district or industrial, natural gas
+market for acetic acid, without water, in 98% solution state;0.039;ei 3.8 cutoff;GLO;kilogram;;technosphere;;acetic acid, 98% in H2O, at plant, RER;;acetic acid, without water, in 98% solution state
+market for acrylic binder, without water, in 34% solution state;0.002;ei 3.8 cutoff;RER;kilogram;;technosphere;;acrylic binder, 34% in H2O, at plant, RER;;acrylic binder, without water, in 34% solution state
+market for brass;0.00744;ei 3.8 cutoff;CH;kilogram;;technosphere;;brass, at plant, CH;;brass
+market for dipropylene glycol monomethyl ether;0.3;ei 3.8 cutoff;RER;kilogram;;technosphere;;dipropylene glycol monomethyl ether, at plant, RER;;dipropylene glycol monomethyl ether
+market for electricity, medium voltage;4.76;ei 3.8 cutoff;KR;kilowatt hour;;technosphere;;electricity, medium voltage, at grid, KR;;electricity, medium voltage
+market for flat glass, uncoated;0.00999;ei 3.8 cutoff;RER;kilogram;;technosphere;;flat glass, uncoated, at plant, RER;;flat glass, uncoated
+market for hydrochloric acid, without water, in 30% solution state;0.0027;ei 3.8 cutoff;RER;kilogram;;technosphere;;hydrochloric acid, 30% in H2O, at plant, RER;;hydrochloric acid, without water, in 30% solution state
+market for sodium hydroxide, without water, in 50% solution state;0.015;ei 3.8 cutoff;GLO;kilogram;;technosphere;;sodium hydroxide, 50% in H2O, production mix, at plant, RER;;sodium hydroxide, without water, in 50% solution state
+market for steel, chromium steel 18/8;0.00151;ei 3.8 cutoff;GLO;kilogram;;technosphere;;chromium steel 18/8, at plant, RER;;steel, chromium steel 18/8
+market for transport, freight, lorry, unspecified;0.236;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, lorry, fleet average, RER;;transport, freight, lorry, unspecified
+market for water, deionised;55.6;ei 3.8 cutoff;RoW;kilogram;;technosphere;;water, deionised, water balance according to MoeK 2013, at plant, KR;;water, deionised
+market group for transport, freight train;1.25;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, rail, RER;;transport, freight train
+scSi_APAC;0.595;TandemPV;APAC;kilogram;;technosphere;;CZ single crystalline silicon, photovoltaics, at plant, APAC;;CZ single crystalline silicon, photovoltaics, at plant
+treatment of waste, from silicon wafer production, underground deposit;-0.11;ei 3.8 cutoff;DE;kilogram;;technosphere;;disposal, waste, silicon wafer production, 0% water, to underground deposit, DE;;waste, from silicon wafer production
+treatment of wastewater, average, capacity 1.1E10l/year;-0.05;ei 3.8 cutoff;CH;cubic meter;;technosphere;;treatment, sewage, to wastewater treatment, class 2, CH;;wastewater, average
+wafer factory construction;0.000004;ei 3.8 cutoff;DE;unit;;technosphere;;wafer factory, DE;;wafer factory
+wire drawing, steel;0.00895;ei 3.8 cutoff;RER;kilogram;;technosphere;;wire drawing, steel, RER;;wire drawing, steel
+;;;;;;;;;;
+Activity;scSi_wafer_CN;;;;;;;;;
+code;feb0bc35aa2346be8a8ee65bb0ff3f9b_copy1;;;;;;;;;
+comment;"Dataset is based on Table 12 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;CN;;;;;;;;;
+reference product;Single-Si wafer, photovoltaic, at plant ;;;;;;;;;
+type;process;;;;;;;;;
+unit;square meter;;;;;;;;;
+Parameters;scSi_wafer_CN_c6b705b478ab7c45029d24a503a955da;;;;;;;;;
+name;amount;formula;code;database;;;;;;
+scSi_wafer_CN_1;1;;feb0bc35aa2346be8a8ee65bb0ff3f9b_copy1;TandemPV;;;;;;
+;;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;formula;comment;original_amount;reference product
+BOD5, Biological Oxygen Demand;0.0295;biosphere3;;kilogram;water::surface water;biosphere;;;;
+COD, Chemical Oxygen Demand;0.0295;biosphere3;;kilogram;water::surface water;biosphere;;;;
+COD, Chemical Oxygen Demand;0.0111;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Heat, waste;17.1;biosphere3;;megajoule;air;biosphere;;;;
+TOC, Total Organic Carbon;0.0111;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Water;0.00556;biosphere3;;cubic meter;air;biosphere;5.56 * kg_to_m3;Converted from kg to m3;0;
+scSi_wafer_CN;1;TandemPV;CN;square meter;;production;;;;Single-Si wafer, photovoltaic, at plant 
+alkylbenzene sulfonate production, linear, petrochemical;0.24;ei 3.8 cutoff;RER;kilogram;;technosphere;;alkylbenzene sulfonate, linear, petrochemical, at plant, RER;;alkylbenzene sulfonate, linear, petrochemical
+heat production, natural gas, at industrial furnace low-NOx >100kW;4;ei 3.8 cutoff;Europe without Switzerland;megajoule;;technosphere;;natural gas, burned in industrial furnace low-NOx >100kW, RER;;heat, district or industrial, natural gas
+market for acetic acid, without water, in 98% solution state;0.039;ei 3.8 cutoff;GLO;kilogram;;technosphere;;acetic acid, 98% in H2O, at plant, RER;;acetic acid, without water, in 98% solution state
+market for acrylic binder, without water, in 34% solution state;0.002;ei 3.8 cutoff;RER;kilogram;;technosphere;;acrylic binder, 34% in H2O, at plant, RER;;acrylic binder, without water, in 34% solution state
+market for brass;0.00744;ei 3.8 cutoff;CH;kilogram;;technosphere;;brass, at plant, CH;;brass
+market for dipropylene glycol monomethyl ether;0.3;ei 3.8 cutoff;RER;kilogram;;technosphere;;dipropylene glycol monomethyl ether, at plant, RER;;dipropylene glycol monomethyl ether
+market for flat glass, uncoated;0.00999;ei 3.8 cutoff;RER;kilogram;;technosphere;;flat glass, uncoated, at plant, RER;;flat glass, uncoated
+market for hydrochloric acid, without water, in 30% solution state;0.0027;ei 3.8 cutoff;RER;kilogram;;technosphere;;hydrochloric acid, 30% in H2O, at plant, RER;;hydrochloric acid, without water, in 30% solution state
+market for sodium hydroxide, without water, in 50% solution state;0.015;ei 3.8 cutoff;GLO;kilogram;;technosphere;;sodium hydroxide, 50% in H2O, production mix, at plant, RER;;sodium hydroxide, without water, in 50% solution state
+market for steel, chromium steel 18/8;0.00151;ei 3.8 cutoff;GLO;kilogram;;technosphere;;chromium steel 18/8, at plant, RER;;steel, chromium steel 18/8
+market for transport, freight, lorry, unspecified;0.236;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, lorry, fleet average, RER;;transport, freight, lorry, unspecified
+market for water, deionised;55.6;ei 3.8 cutoff;RoW;kilogram;;technosphere;;water, deionised, water balance according to MoeK 2013, at plant, CN;;water, deionised
+market group for electricity, medium voltage;4.76;ei 3.8 cutoff;CN;kilowatt hour;;technosphere;;electricity, medium voltage, at grid, CN;;electricity, medium voltage
+market group for transport, freight train;1.25;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, rail, RER;;transport, freight train
+scSi_CN;0.595;TandemPV;CN;kilogram;;technosphere;;CZ single crystalline silicon, photovoltaics, at plant, CN;;CZ single crystalline silicon, photovoltaics, at plant
+treatment of waste, from silicon wafer production, underground deposit;-0.11;ei 3.8 cutoff;DE;kilogram;;technosphere;;disposal, waste, silicon wafer production, 0% water, to underground deposit, DE;;waste, from silicon wafer production
+treatment of wastewater, average, capacity 1.1E10l/year;-0.05;ei 3.8 cutoff;CH;cubic meter;;technosphere;;treatment, sewage, to wastewater treatment, class 2, CH;;wastewater, average
+wafer factory construction;0.000004;ei 3.8 cutoff;DE;unit;;technosphere;;wafer factory, DE;;wafer factory
+wire drawing, steel;0.00895;ei 3.8 cutoff;RER;kilogram;;technosphere;;wire drawing, steel, RER;;wire drawing, steel
+;;;;;;;;;;
+Activity;scSi_wafer_RER;;;;;;;;;
+code;feb0bc35aa2346be8a8ee65bb0ff3f9b_copy3;;;;;;;;;
+comment;"Dataset is based on Table 13 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;RER;;;;;;;;;
+reference product;Single-Si wafer, photovoltaic, at plant ;;;;;;;;;
+type;process;;;;;;;;;
+unit;square meter;;;;;;;;;
+Parameters;scSi_wafer_RER_22c9ae484f3ce66edf18e21657aabd5e;;;;;;;;;
+name;amount;formula;code;database;;;;;;
+scSi_wafer_RER_1;1;;feb0bc35aa2346be8a8ee65bb0ff3f9b_copy3;TandemPV;;;;;;
+;;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;categories;type;formula;comment;original_amount;reference product
+BOD5, Biological Oxygen Demand;0.0295;biosphere3;;kilogram;water::surface water;biosphere;;;;
+COD, Chemical Oxygen Demand;0.0295;biosphere3;;kilogram;water::surface water;biosphere;;;;
+COD, Chemical Oxygen Demand;0.0111;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Heat, waste;17.1;biosphere3;;megajoule;air;biosphere;;;;
+TOC, Total Organic Carbon;0.0111;biosphere3;;kilogram;water::surface water;biosphere;;;;
+Water;0.00556;biosphere3;;cubic meter;air;biosphere;5.56 * kg_to_m3;Converted from kg to m3;0;
+scSi_wafer_RER;1;TandemPV;RER;square meter;;production;;;;Single-Si wafer, photovoltaic, at plant 
+alkylbenzene sulfonate production, linear, petrochemical;0.24;ei 3.8 cutoff;RER;kilogram;;technosphere;;alkylbenzene sulfonate, linear, petrochemical, at plant, RER;;alkylbenzene sulfonate, linear, petrochemical
+heat production, natural gas, at industrial furnace low-NOx >100kW;4;ei 3.8 cutoff;Europe without Switzerland;megajoule;;technosphere;;natural gas, burned in industrial furnace low-NOx >100kW, RER;;heat, district or industrial, natural gas
+market for acetic acid, without water, in 98% solution state;0.039;ei 3.8 cutoff;GLO;kilogram;;technosphere;;acetic acid, 98% in H2O, at plant, RER;;acetic acid, without water, in 98% solution state
+market for acrylic binder, without water, in 34% solution state;0.002;ei 3.8 cutoff;RER;kilogram;;technosphere;;acrylic binder, 34% in H2O, at plant, RER;;acrylic binder, without water, in 34% solution state
+market for brass;0.00744;ei 3.8 cutoff;CH;kilogram;;technosphere;;brass, at plant, CH;;brass
+market for dipropylene glycol monomethyl ether;0.3;ei 3.8 cutoff;RER;kilogram;;technosphere;;dipropylene glycol monomethyl ether, at plant, RER;;dipropylene glycol monomethyl ether
+market for flat glass, uncoated;0.00999;ei 3.8 cutoff;RER;kilogram;;technosphere;;flat glass, uncoated, at plant, RER;;flat glass, uncoated
+market for hydrochloric acid, without water, in 30% solution state;0.0027;ei 3.8 cutoff;RER;kilogram;;technosphere;;hydrochloric acid, 30% in H2O, at plant, RER;;hydrochloric acid, without water, in 30% solution state
+market for sodium hydroxide, without water, in 50% solution state;0.015;ei 3.8 cutoff;GLO;kilogram;;technosphere;;sodium hydroxide, 50% in H2O, production mix, at plant, RER;;sodium hydroxide, without water, in 50% solution state
+market for steel, chromium steel 18/8;0.00151;ei 3.8 cutoff;GLO;kilogram;;technosphere;;chromium steel 18/8, at plant, RER;;steel, chromium steel 18/8
+market for transport, freight, lorry, unspecified;0.236;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, lorry, fleet average, RER;;transport, freight, lorry, unspecified
+market for water, deionised;55.6;ei 3.8 cutoff;Europe without Switzerland;kilogram;;technosphere;;water, deionised, water balance according to MoeK 2013, at plant, RER;;water, deionised
+market group for electricity, medium voltage;4.76;ei 3.8 cutoff;ENTSO-E;kilowatt hour;;technosphere;;electricity, medium voltage, production ENTSO, at grid, ENTSO;;electricity, medium voltage
+market group for transport, freight train;1.25;ei 3.8 cutoff;RER;ton kilometer;;technosphere;;transport, freight, rail, RER;;transport, freight train
+scSi_RER;0.595;TandemPV;RER;kilogram;;technosphere;;CZ single crystalline silicon, photovoltaics, at plant, RER;;CZ single crystalline silicon, photovoltaics, at plant
+treatment of waste, from silicon wafer production, underground deposit;-0.11;ei 3.8 cutoff;DE;kilogram;;technosphere;;disposal, waste, silicon wafer production, 0% water, to underground deposit, DE;;waste, from silicon wafer production
+treatment of wastewater, average, capacity 1.1E10l/year;-0.05;ei 3.8 cutoff;CH;cubic meter;;technosphere;;treatment, sewage, to wastewater treatment, class 2, CH;;wastewater, average
+wafer factory construction;0.000004;ei 3.8 cutoff;DE;unit;;technosphere;;wafer factory, DE;;wafer factory
+wire drawing, steel;0.00895;ei 3.8 cutoff;RER;kilogram;;technosphere;;wire drawing, steel, RER;;wire drawing, steel
+;;;;;;;;;;
+Activity;scSi_wafer_mix_APAC;;;;;;;;;
+code;27cbb0b20b0d40b2a1fda59af1664be5_copy1;;;;;;;;;
+comment;"Dataset is based on Table 14 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;APAC;;;;;;;;;
+reference product;Single-Si wafer, photovoltaic;;;;;;;;;
+type;process;;;;;;;;;
+unit;square meter;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;type;comment;reference product;;;
+scSi_wafer_mix_APAC;1;TandemPV;APAC;square meter;production;;Single-Si wafer, photovoltaic;;;
+market for transport, freight, lorry, unspecified;0.0198;ei 3.8 cutoff;RER;ton kilometer;technosphere;transport, freight, lorry, fleet average, RER;transport, freight, lorry, unspecified;;;
+market for transport, freight, sea, container ship;1.57;ei 3.8 cutoff;GLO;ton kilometer;technosphere;transport, transoceanic freight ship, OCE;transport, freight, sea, container ship;;;
+market group for transport, freight train;0.0792;ei 3.8 cutoff;RER;ton kilometer;technosphere;transport, freight, rail, RER;transport, freight train;;;
+scSi_wafer_APAC;0.133;TandemPV;APAC;square meter;technosphere;single-Si wafer, photovoltaics, at plant, APAC;Single-Si wafer, photovoltaic, at plant ;;;
+scSi_wafer_CN;0.867;TandemPV;CN;square meter;technosphere;single-Si wafer, photovoltaics, at plant, CN;Single-Si wafer, photovoltaic, at plant ;;;
+;;;;;;;;;;
+Activity;scSi_wafer_mix_RER;;;;;;;;;
+code;47bff2bcc1bd487682393172bc7091db_copy1;;;;;;;;;
+comment;"Dataset is based on Table 14 of (Frischknecht et al. 2020). Names for inventory items listed by the original source are provided in the comments. Exact names of ecoinvent dataset for inventory items were not provided in the original source. Datasets from ecoinvent were therefore selected that provide a close as possible match to the name of the listed inventory item. 
+
+- Frischknecht, R., Stolz, P., Krebs, L., de Wild-Scholten, M., & Sinha, P. (2020). Life Cycle Inventories and Life Cycle Assessments of Photovoltaic Systems. https://iea-pvps.org/wp-content/uploads/2020/12/IEA-PVPS-LCI-report-2020.pdf [Accessed 2022-05-11]";;;;;;;;;
+location;RER;;;;;;;;;
+reference product;Single-Si wafer, photovoltaic;;;;;;;;;
+type;process;;;;;;;;;
+unit;square meter;;;;;;;;;
+Exchanges;;;;;;;;;;
+name;amount;database;location;unit;type;comment;reference product;;;
+scSi_wafer_mix_RER;1;TandemPV;RER;square meter;production;;Single-Si wafer, photovoltaic;;;
+market for transport, freight, lorry, unspecified;0.0198;ei 3.8 cutoff;RER;ton kilometer;technosphere;transport, freight, lorry, fleet average, RER;transport, freight, lorry, unspecified;;;
+market for transport, freight, sea, container ship;1.6;ei 3.8 cutoff;GLO;ton kilometer;technosphere;transport, transoceanic freight ship, OCE;transport, freight, sea, container ship;;;
+market group for transport, freight train;0.0792;ei 3.8 cutoff;RER;ton kilometer;technosphere;transport, freight, rail, RER;transport, freight train;;;
+scSi_wafer_CN;0.202;TandemPV;CN;square meter;technosphere;single-Si wafer, photovoltaics, at plant, CN;Single-Si wafer, photovoltaic, at plant ;;;
+scSi_wafer_RER;0.798;TandemPV;RER;square meter;technosphere;single-Si wafer, photovoltaics, at plant, RER;Single-Si wafer, photovoltaic, at plant ;;;
