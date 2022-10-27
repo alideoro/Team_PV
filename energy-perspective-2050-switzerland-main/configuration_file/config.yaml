@@ -71,12 +71,12 @@ production pathways:
 
   pv_res:
     production volume:
-        variable: Production|Electricity|Renewable|Photovoltaic_residential
+      variable: Production|Electricity|Renewable|Photovoltaic_residential
     efficiency:
-        - variable: deple_pv_monoSI
-          includes:
-            technosphere:
-              - single-Si
+      - variable: deple_pv_monoSI
+        includes:
+          technosphere:
+            - single-Si
     ecoinvent alias:
       name: electricity production, photovoltaic, residential
       reference product: electricity, low voltage
