@@ -73,7 +73,7 @@ production pathways:
     production volume:
         variable: Production|Electricity|Renewable|Photovoltaic_residential
     efficiency:
-        - variable: deple_pv_monoSI 
+        - variable: deple_pv_monoSI
           includes:
             technosphere:
               - single-Si
