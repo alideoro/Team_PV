@@ -1,51 +1,53 @@
 ﻿model,pathway,scenario,region,variables,unit,2020,2025,2030,2035,2040,2045,2050,2060,2070,2080,2090,2100
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.002,63.994,63.928,63.119,61.774,59.235,58.097,58.097,58.097,58.097,58.097,58.097
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Reservoir,PJ/year,76.367,79.679,81.45,79.47,79.556,81.238,82.102,82.102,82.102,82.102,82.102,82.102
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.30202,28.321,15.165,0,0,0,0,0,0,0,0,0
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Nuclear|Pressure water reactor,PJ/year,42.06398,31.936,17.102,0,0,0,0,0,0,0,0,0
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,6.767,6.883,6.998,7.114,7.229,7.345,7.461,7.461,7.461,7.461,7.461,7.461
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Conventional|Other,PJ/year,1.74,2.203,2.463,3.291,3.863,4.955,5.484,5.484,5.484,5.484,5.484,5.484
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Renewable|Photovoltaic2,PJ/year,0,1.4358,3.6669,5.3864,7.4185,10.2387,14.01505,16.0172,18.01935,20.0215,22.02365,24.0258
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Renewable|Photovoltaic,PJ/year,9.073,12.9222,20.7791,21.5456,22.2555,23.8903,26.02795,24.0258,22.02365,20.0215,18.01935,16.0172
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Renewable|Wind turbines|Onshore,PJ/year,0.612,1.152,1.176,1.201,1.226,1.25,1.275,1.275,1.275,1.275,1.275,1.275
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Renewable|Geothermal,PJ/year,0,0.011,0.168,0.259,0.389,0.454,0.605,0.605,0.605,0.605,0.605,0.605
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Renewable|Biomass,PJ/year,0.99,0.986,0.95,0.9,0.824,0.846,0.76,0.76,0.76,0.76,0.76,0.76
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Renewable|Biogas,PJ/year,1.086,1.086,1.077,1.05,1.035,1,0.994,0.994,0.994,0.994,0.994,0.994
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Medium to high,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Import,PJ/year,-21.6,25.2,72,72,72,73.8,75.6,75.6,75.6,75.6,75.6,75.6
-image,SSP2-RCP19,KN65,CH,Transmission losses|Electricity|Medium to high,PJ/year,1,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935
-image,SSP2-RCP19,KN65,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973
-image,SSP2-RCP19,KN65,CH,Production|Liquid fuel|Diesel|Diesel,PJ/year,104,110,103,91,79,68,59,59,59,59,59,59
-image,SSP2-RCP19,KN65,CH,Production|Liquid fuel|Diesel|Biodiesel,PJ/year,7,2,2,2,2,1,1,1,1,1,1,1
-image,SSP2-RCP19,KN65,CH,Production|Liquid fuel|Diesel|Synthetic diesel,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
-image,SSP2-RCP19,KN65,CH,Production|Liquid fuel|Petrol|Petrol,PJ/year,81.57,71.692,61.811,52.63,44.065,36.839,30.605,30.605,30.605,30.605,30.605,30.605
-image,SSP2-RCP19,KN65,CH,Production|Liquid fuel|Petrol|Bioethanol,PJ/year,1.242,0.724,0.624,0.532,0.445,0.372,0.309,0.309,0.309,0.309,0.309,0.309
-image,SSP2-RCP19,KN65,CH,Production|Liquid fuel|Petrol|Synthetic petrol,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
-image,SSP2-RCP19,KN65,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/year,0,1,2,5,7,11,16,16,16,16,16,16
-image,SSP2-RCP19,KN65,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
-image,SSP2-RCP19,KN65,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
-image,SSP2-RCP19,KN65,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
-image,SSP2-RCP19,KN65,CH,Production|Gaseous fuel|Hydrogen|Gaseous to liquid,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
-image,SSP2-RCP19,KN65,CH,Distribution losses|Gaseous fuel|Hydrogen|Liquefaction,%,1,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987
-image,SSP2-RCP19,KN65,CH,Distribution losses|Gaseous fuel|Hydrogen|Evaporation,%,1,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98
-image,SSP2-RCP19,KN65,CH,Distribution losses|Gaseous fuel|Hydrogen|Leakage,%,1,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295
-image,SSP2-RCP19,KN65,CH,Cushion gas|Gaseous fuel|Hydrogen|Geological storage,%,1,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985
-image,SSP2-RCP19,KN65,CH,Efficiency|Gaseous fuel|Hydrogen|Liquefaction,%,1,1.11,1.22,1.44,1.63,1.82,2,2,2,2,2,2
-image,SSP2-RCP19,KN65,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
-image,SSP2-RCP19,KN65,CH,Production|Gaseous fuel|CNG,PJ/year,0.478,0.737,1.108,1.428,1.566,1.533,1.454,1.454,1.454,1.454,1.454,1.454
-image,SSP2-RCP19,KN65,CH,Production|Gaseous fuel|LNG,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
-image,SSP2-RCP19,KN65,CH,Production|Gaseous fuel|Biomethane,PJ/year,0.139,0.19,0.286,0.368,0.404,0.395,0.375,0.375,0.375,0.375,0.375,0.375
-image,SSP2-RCP19,KN65,CH,Production|Gaseous fuel|Synthetic gas,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
-image,SSP2-RCP19,KN65,CH,Production|Gaseous fuel|Low to high,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
-image,SSP2-RCP19,KN65,CH,Distribution losses|Gaseous fuel|Low to high,PJ/year,1,0.9975,0.9975,0.9975,0.9975,0.9975,0.9975,0.9975,0.9975,0.9975,0.9975,0.9975
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Neighbor countries|Reservoir,PJ/year,666.22,669.694,674.011,670.346,690.76,711.591,730.723,730.723,730.723,730.723,730.723,730.723
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Neighbor countries|Nuclear,PJ/year,1687.313,1428.995,1158.156,666.961,294.026,165.244,32.634,32.634,32.634,32.634,32.634,32.634
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Neighbor countries|Coal,PJ/year,647.341,587.696,371.927,210.679,0,0,0,0,0,0,0,0
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Neighbor countries|Natural gas,PJ/year,958.045,944.126,1009.651,1344.794,1675.774,1382.118,1242.805,1242.805,1242.805,1242.805,1242.805,1242.805
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Neighbor countries|Conventional|Waste-to-Energy,PJ/year,223.776,221.4,219.226,246.204,207.295,236.977,240.462,240.462,240.462,240.462,240.462,240.462
-image,SSP2-RCP19,KN65,CH,Production|Electricity|Neighbor countries|Renewable|Photovoltaic2,PJ/year,0,41.4291,88.8015,145.6924,234.29675,341.3409,451.52135,516.0244,580.52745,645.0305,709.53355,774.0366
-image,SSP2-Base,KN65,CH,Production|Electricity|Neighbor countries|Renewable|Photovoltaic,PJ/year,308.724,372.8619,503.2085,582.7696,702.89025,796.4621,838.53965,774.0366,709.53355,645.0305,580.52745,516.0244
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.002,63.994,63.928,63.119,61.774,59.235,58.097,58.097,58.097,58.097,58.097,58.097
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Reservoir,PJ/year,76.367,79.679,81.45,79.47,79.556,81.238,82.102,82.102,82.102,82.102,82.102,82.102
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.30202,28.321,15.165,0,0,0,0,0,0,0,0,0
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Nuclear|Pressure water reactor,PJ/year,42.06398,31.936,17.102,0,0,0,0,0,0,0,0,0
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,6.767,6.883,6.998,7.114,7.229,7.345,7.461,7.461,7.461,7.461,7.461,7.461
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Conventional|Other,PJ/year,1.74,2.203,2.463,3.291,3.863,4.955,5.484,5.484,5.484,5.484,5.484,5.484
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Photovoltaic_commercial,PJ/year,5.71599,9.04554,15.40098,16.96716,18.69462,21.50127,25.22709,25.22709,25.22709,25.22709,25.22709,25.22709
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Photovoltaic2,PJ/year,0,0.069142528,0.235444802,0.324235018,0.571593639,0.821759761,1.060573082,1.156988816,1.253404551,1.349820286,1.542651755,1.928314694
+image,SSP2-Base,Business As Usual,CH,deple_pv_monoSI ,%,1,0.9,0.8,0.75,0.6,0.5,0.45,0.4,0.35,0.3,0.2,0
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Photovoltaic_residential,PJ/year,3.35701,5.243317472,8.809575198,9.640604982,10.40778636,11.80597024,13.75533692,13.65892118,13.56250545,13.46608971,13.27325824,12.88759531
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Wind turbines|Onshore,PJ/year,0.612,1.152,1.176,1.201,1.226,1.25,1.275,1.275,1.275,1.275,1.275,1.275
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Geothermal,PJ/year,0,0.011,0.168,0.259,0.389,0.454,0.605,0.605,0.605,0.605,0.605,0.605
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Biomass,PJ/year,0.99,0.986,0.95,0.9,0.824,0.846,0.76,0.76,0.76,0.76,0.76,0.76
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Renewable|Biogas,PJ/year,1.086,1.086,1.077,1.05,1.035,1,0.994,0.994,0.994,0.994,0.994,0.994
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Medium to high,PJ/year,230.93,216.251,190.477,156.404,155.896,156.323,156.778,156.778,156.778,156.778,156.778,156.778
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Import,PJ/year,-21.6,25.2,72,72,72,73.8,75.6,75.6,75.6,75.6,75.6,75.6
+image,SSP2-Base,Business As Usual,CH,Transmission losses|Electricity|Medium to high,PJ/year,1,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935
+image,SSP2-Base,Business As Usual,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973
+image,SSP2-Base,Business As Usual,CH,Production|Liquid fuel|Diesel|Diesel,PJ/year,104,110,103,91,79,68,59,59,59,59,59,59
+image,SSP2-Base,Business As Usual,CH,Production|Liquid fuel|Diesel|Biodiesel,PJ/year,7,2,2,2,2,1,1,1,1,1,1,1
+image,SSP2-Base,Business As Usual,CH,Production|Liquid fuel|Diesel|Synthetic diesel,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
+image,SSP2-Base,Business As Usual,CH,Production|Liquid fuel|Petrol|Petrol,PJ/year,81.57,71.692,61.811,52.63,44.065,36.839,30.605,30.605,30.605,30.605,30.605,30.605
+image,SSP2-Base,Business As Usual,CH,Production|Liquid fuel|Petrol|Bioethanol,PJ/year,1.242,0.724,0.624,0.532,0.445,0.372,0.309,0.309,0.309,0.309,0.309,0.309
+image,SSP2-Base,Business As Usual,CH,Production|Liquid fuel|Petrol|Synthetic petrol,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
+image,SSP2-Base,Business As Usual,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/year,0,1,2,5,7,11,16,16,16,16,16,16
+image,SSP2-Base,Business As Usual,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
+image,SSP2-Base,Business As Usual,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+image,SSP2-Base,Business As Usual,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+image,SSP2-Base,Business As Usual,CH,Production|Gaseous fuel|Hydrogen|Gaseous to liquid,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+image,SSP2-Base,Business As Usual,CH,Distribution losses|Gaseous fuel|Hydrogen|Liquefaction,%,1,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987
+image,SSP2-Base,Business As Usual,CH,Distribution losses|Gaseous fuel|Hydrogen|Evaporation,%,1,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98
+image,SSP2-Base,Business As Usual,CH,Distribution losses|Gaseous fuel|Hydrogen|Leakage,%,1,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295
+image,SSP2-Base,Business As Usual,CH,Cushion gas|Gaseous fuel|Hydrogen|Geological storage,%,1,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985
+image,SSP2-Base,Business As Usual,CH,Efficiency|Gaseous fuel|Hydrogen|Liquefaction,%,1,1.11,1.22,1.44,1.63,1.82,2,2,2,2,2,2
+image,SSP2-Base,Business As Usual,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+image,SSP2-Base,Business As Usual,CH,Production|Gaseous fuel|CNG,PJ/year,0.478,0.737,1.108,1.428,1.566,1.533,1.454,1.454,1.454,1.454,1.454,1.454
+image,SSP2-Base,Business As Usual,CH,Production|Gaseous fuel|LNG,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
+image,SSP2-Base,Business As Usual,CH,Production|Gaseous fuel|Biomethane,PJ/year,0.139,0.19,0.286,0.368,0.404,0.395,0.375,0.375,0.375,0.375,0.375,0.375
+image,SSP2-Base,Business As Usual,CH,Production|Gaseous fuel|Synthetic gas,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
+image,SSP2-Base,Business As Usual,CH,Production|Gaseous fuel|Low to high,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+image,SSP2-Base,Business As Usual,CH,Distribution losses|Gaseous fuel|Low to high,PJ/year,1,0.9975,0.9975,0.9975,0.9975,0.9975,0.9975,0.9975,0.9975,0.9975,0.9975,0.9975
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Reservoir,PJ/year,666.22,669.694,674.011,670.346,690.76,711.591,730.723,730.723,730.723,730.723,730.723,730.723
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Nuclear,PJ/year,1687.313,1428.995,1158.156,666.961,294.026,165.244,32.634,32.634,32.634,32.634,32.634,32.634
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Coal,PJ/year,647.341,587.696,371.927,210.679,0,0,0,0,0,0,0,0
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Natural gas,PJ/year,958.045,944.126,1009.651,1344.794,1675.774,1382.118,1242.805,1242.805,1242.805,1242.805,1242.805,1242.805
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Conventional|Waste-to-Energy,PJ/year,223.776,221.4,219.226,246.204,207.295,236.977,240.462,240.462,240.462,240.462,240.462,240.462
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Renewable|Photovoltaic2,PJ/year,0,41.4291,88.8015,145.6924,234.29675,341.3409,451.52135,516.0244,580.52745,645.0305,709.53355,774.0366
+image,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Renewable|Photovoltaic,PJ/year,308.724,372.8619,503.2085,582.7696,702.89025,796.4621,838.53965,774.0366,709.53355,645.0305,580.52745,516.0244
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Onshore,PJ/year,586.563,691.686,896.487,967.07,1073.637,1285.186,1457.717,1457.717,1457.717,1457.717,1457.717,1457.717
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Offshore,PJ/year,127.027,210.495,297.586,388.655,395.81,593.401,692.669,692.669,692.669,692.669,692.669,692.669
 image,SSP2-Base,Business As Usual,CH,Production|Electricity|Neighbor countries|Renewable|Biomass,PJ/year,219.931,232.164,242.87,226.044,202.997,179.276,159.577,159.577,159.577,159.577,159.577,159.577

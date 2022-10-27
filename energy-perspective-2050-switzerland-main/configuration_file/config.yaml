@@ -53,22 +53,34 @@ production pathways:
       reference product: electricity, high voltage
       exists in original database: True
 
-  pv:
+  pv_com:
     production volume:
-      variable: Production|Electricity|Renewable|Photovoltaic
+      variable: Production|Electricity|Renewable|Photovoltaic_commercial
     ecoinvent alias:
-      name: electricity production, photovoltaic
-      reference product: electricity, low voltage
+      name: electricity production, photovoltaic, commercial
+      reference product: electricity, high voltage
       exists in original database: True
   
   pv2:
     production volume:
       variable: Production|Electricity|Renewable|Photovoltaic2
     ecoinvent alias:
-      name: electricity production, new PV
+      name: electricity production, photovoltaic, 3kWp slanted-roof installation, 3kWp, monofacial PSC-scSi tandem panel, mounted
       reference product: electricity, low voltage
       exists in original database: False
-      
+
+  pv_res:
+    production volume:
+        variable: Production|Electricity|Renewable|Photovoltaic_residential
+    efficiency:
+        variable: deple_pv_monoSI 
+        includes:
+            technosphere:
+                - single-Si
+    ecoinvent alias:
+      name: electricity production, photovoltaic, residential
+      reference product: electricity, low voltage
+      exists in original database: True
       
   wind:
     production volume:
@@ -181,11 +193,9 @@ production pathways:
     production volume:
       variable: Production|Electricity|Neighbor countries|Renewable|Photovoltaic2
     ecoinvent alias:
-      name: electricity production, new PV
+      name: electricity production, photovoltaic, 3kWp slanted-roof installation, 3kWp, monofacial PSC-scSi tandem panel, mounted
       reference product: electricity, low voltage
       exists in original database: False
-      
-      
 
   neighbors_wind_on:
     production volume:
@@ -576,7 +586,6 @@ markets:
       - neighbors_conventional_ng
       - conventional_waste
       - neighbors_pv
-      - neighbors_pv2
       - neighbors_wind_on
       - neighbors_wind_off
       - neighbors_biomass
@@ -661,8 +670,7 @@ markets:
       - nuclear_pressure_water
       - conventional_waste
       - conventional_other
-      - pv
-      - pv2
+      - pv_com
       - wind
       - geothermal
       - biomass
@@ -738,6 +746,8 @@ markets:
     unit: kilowatt hour
     includes:
       - low_to_medium
+      - pv2
+      - pv_res
 
     add:
       - name: market for sulfur hexafluoride, liquid
