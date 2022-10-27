@@ -576,7 +576,7 @@ markets:
     except regions:
       - World
 
-  - name: market for electricity, from neighboring countries, high voltage, EP2050_PV2
+  - name: market for electricity, from neighboring countries, high voltage, EP2050
     reference product: electricity, high voltage
     unit: kilowatt hour
     includes:
@@ -660,7 +660,7 @@ markets:
         location: CH
 
 
-  - name: market for electricity, high voltage, EP2050_PV2
+  - name: market for electricity, high voltage, EP2050
     reference product: electricity, high voltage
     unit: kilowatt hour
     includes:
