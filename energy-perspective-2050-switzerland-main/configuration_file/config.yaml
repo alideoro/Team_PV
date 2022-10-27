@@ -65,8 +65,8 @@ production pathways:
     production volume:
       variable: Production|Electricity|Renewable|Photovoltaic2
     ecoinvent alias:
-      name: electricity production, photovoltaic, 3kWp slanted-roof installation, 3kWp, monofacial PSC-scSi tandem panel, mounted
-      reference product: electricity, low voltage
+      name: monofacial_tandem_electricity
+      reference product: electricity production, photovoltaic, 3kWp slanted-roof installation, 3kWp, monofacial PSC-scSi tandem panel, mounted
       exists in original database: False
 
   pv_res:
